@@ -9,6 +9,7 @@ import { buildVideoRecord } from './lib/build-record.mjs';
 import { refineVideoLocations } from './lib/refine-videos.mjs';
 import { analyzeVideoVisuals, publishVisualFrames } from './lib/visual-analysis.mjs';
 import { fetchComments } from './fetch-comments.mjs';
+import { extractCommentEvidence, aggregateCommentLocations } from './lib/comment-extractors.mjs';
 
 const root = resolve(import.meta.dirname, '..');
 const playlistUrl =
@@ -128,6 +129,23 @@ for (const [index, entry] of selectedEntries.entries()) {
 
   // Fetch comments
   const commentResult = fetchComments(entry.id, { limit: 200, forceRefresh });
+
+    // Extract comment evidence
+    let commentEvidenceList = [];
+    if (commentResult.success && commentResult.count > 0) {
+      try {
+        const comments = JSON.parse(readFileSync(resolve(rawVideoDir, 'comments.json'), 'utf8'));
+        if (Array.isArray(comments)) {
+          commentEvidenceList = extractCommentEvidence(comments);
+          writeFileSync(
+            resolve(rawVideoDir, 'comment-evidence.json'),
+            JSON.stringify(commentEvidenceList, null, 2) + '\n',
+          );
+        }
+      } catch (err) {
+        console.warn(`  [comment-evidence] ${entry.id}: ${err.message}`);
+      }
+    }
 
   const previousVideo = videos.at(-1) ?? null;
   const built = buildVideoRecord({

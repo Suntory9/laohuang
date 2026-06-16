@@ -6,6 +6,7 @@ import { buildVideoRecord } from './lib/build-record.mjs';
 import { refineVideoLocations } from './lib/refine-videos.mjs';
 import { loadVisualAnalysis, publishVisualFrames } from './lib/visual-analysis.mjs';
 import { fetchComments } from './fetch-comments.mjs';
+import { extractCommentEvidence, aggregateCommentLocations } from './lib/comment-extractors.mjs';
 
 const root = resolve(import.meta.dirname, '..');
 const rawDir = resolve(root, 'raw/videos');
@@ -70,6 +71,23 @@ for (const [index, item] of metas.entries()) {
 
   // Fetch comments (uses cache if available)
   const commentResult = fetchComments(item.meta.id, { limit: 200, forceRefresh: false });
+
+    // Extract comment evidence
+    let commentEvidenceList = [];
+    if (commentResult.success && commentResult.count > 0) {
+      try {
+        const comments = JSON.parse(readFileSync(resolve(item.dir, 'comments.json'), 'utf8'));
+        if (Array.isArray(comments)) {
+          commentEvidenceList = extractCommentEvidence(comments);
+          writeFileSync(
+            resolve(item.dir, 'comment-evidence.json'),
+            JSON.stringify(commentEvidenceList, null, 2) + '\n',
+          );
+        }
+      } catch (err) {
+        console.warn(`  [comment-evidence] ${item.meta.id}: ${err.message}`);
+      }
+    }
 
   const built = buildVideoRecord({
     meta: item.meta,
