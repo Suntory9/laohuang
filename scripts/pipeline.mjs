@@ -10,6 +10,7 @@ import { refineVideoLocations } from './lib/refine-videos.mjs';
 import { analyzeVideoVisuals, publishVisualFrames } from './lib/visual-analysis.mjs';
 import { fetchComments } from './fetch-comments.mjs';
 import { extractCommentEvidence, aggregateCommentLocations } from './lib/comment-extractors.mjs';
+import { buildVideoIntel } from './lib/intel-builder.mjs';
 
 const root = resolve(import.meta.dirname, '..');
 const playlistUrl =
@@ -166,7 +167,34 @@ for (const [index, entry] of selectedEntries.entries()) {
     `${JSON.stringify(built.evidence, null, 2)}\n`,
   );
 
-  videos.push(built.video);
+  // Assemble VideoIntel
+  const aggregatedLocations = aggregateCommentLocations(commentEvidenceList);
+  const intel = buildVideoIntel({
+    meta,
+    transcriptText,
+    transcriptSource,
+    sequenceIndex: index + 1,
+    previousVideo: videos.at(-1) ?? null,
+    visualAnalysis,
+    commentEvidenceList,
+    aggregatedCommentLocations: aggregatedLocations,
+    inferredLocation: built.video.location,
+    inferredWeather: built.video.weather,
+    inferredFishing: built.video.fishing,
+    inferredRoute: built.video.route,
+    inferredDinner: built.video.dinner,
+    inferredShopping: built.video.shopping,
+    inferredFishingTheory: built.video.fishingTheory,
+    inferredTimeSpan: built.video.timeSpan,
+  });
+
+  writeFileSync(
+    resolve(rawVideoDir, 'intel.json'),
+    JSON.stringify(intel, null, 2) + '\n',
+  );
+
+  // Use intel.final instead of built.video
+  videos.push(intel.final);
   commentResults.push({ bvid: entry.id, ...commentResult });
 }
 

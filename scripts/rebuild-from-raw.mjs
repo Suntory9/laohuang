@@ -7,6 +7,7 @@ import { refineVideoLocations } from './lib/refine-videos.mjs';
 import { loadVisualAnalysis, publishVisualFrames } from './lib/visual-analysis.mjs';
 import { fetchComments } from './fetch-comments.mjs';
 import { extractCommentEvidence, aggregateCommentLocations } from './lib/comment-extractors.mjs';
+import { buildVideoIntel } from './lib/intel-builder.mjs';
 
 const root = resolve(import.meta.dirname, '..');
 const rawDir = resolve(root, 'raw/videos');
@@ -89,6 +90,16 @@ for (const [index, item] of metas.entries()) {
       }
     }
 
+    // Load comment evidence from cache if available
+    if (commentEvidenceList.length === 0) {
+      const commentEvidencePath = resolve(item.dir, 'comment-evidence.json');
+      if (existsSync(commentEvidencePath)) {
+        try {
+          commentEvidenceList = JSON.parse(readFileSync(commentEvidencePath, 'utf8'));
+        } catch { /* ignore */ }
+      }
+    }
+
   const built = buildVideoRecord({
     meta: item.meta,
     transcriptText,
@@ -102,7 +113,34 @@ for (const [index, item] of metas.entries()) {
     visualAnalysisPath,
   });
 
-  videos.push(built.video);
+  // Assemble VideoIntel
+  const aggregatedLocations = aggregateCommentLocations(commentEvidenceList);
+  const intel = buildVideoIntel({
+    meta: item.meta,
+    transcriptText,
+    transcriptSource,
+    sequenceIndex: index + 1,
+    previousVideo: videos.at(-1) ?? null,
+    visualAnalysis,
+    commentEvidenceList,
+    aggregatedCommentLocations: aggregatedLocations,
+    inferredLocation: built.video.location,
+    inferredWeather: built.video.weather,
+    inferredFishing: built.video.fishing,
+    inferredRoute: built.video.route,
+    inferredDinner: built.video.dinner,
+    inferredShopping: built.video.shopping,
+    inferredFishingTheory: built.video.fishingTheory,
+    inferredTimeSpan: built.video.timeSpan,
+  });
+
+  writeFileSync(
+    resolve(item.dir, 'intel.json'),
+    JSON.stringify(intel, null, 2) + '\n',
+  );
+
+  // Use intel.final instead of built.video
+  videos.push(intel.final);
   commentResults.push({ bvid: item.meta.id, ...commentResult });
   writeFileSync(resolve(item.dir, 'evidence.json'), `${JSON.stringify(built.evidence, null, 2)}\n`);
 }
