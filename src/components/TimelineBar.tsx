@@ -51,6 +51,13 @@ export function TimelineBar({ videos, selectedBvid, onSelectVideo }: TimelineBar
             <h4>{video.title}</h4>
             <div className="t-card-meta">
               <span className="t-card-tag">{video.location.prefecture ?? video.location.city ?? video.location.label}</span>
+              {/* Confidence indicator */}
+              {video.location.confidence === 'low' && (
+                <span className="confidence-warn" title="地点低置信度">⚠️</span>
+              )}
+              {video.location.confidence === 'unknown' && (
+                <span className="confidence-warn" title="地点未知">❓</span>
+              )}
               {video.weather.conditionTags.slice(0, 1).map((tag) => (
                 <span key={tag} className="t-card-tag">{tag}</span>
               ))}
