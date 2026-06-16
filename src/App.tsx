@@ -137,7 +137,7 @@ export default function App() {
         <div className="title-screen-content">
           <div className="title-stamp">钓</div>
           <h1>老黄游钓中国</h1>
-          <p className="title-subtitle">Field Journal · 湖北篇</p>
+          <p className="title-subtitle">钓遍中国 · 游钓旅程</p>
           <div className="title-divider"></div>
           <p className="title-desc">
             把视频标题、字幕、音频转写、位置推断、
@@ -166,11 +166,9 @@ export default function App() {
       <MapPanel
         videos={filteredVideos}
         selectedBvid={selectedVideo?.bvid ?? ''}
-        selectedAreaKey={selectedAreaKey}
-        areaStats={areaStats}
         onSelectVideo={handleSelectVideo}
-        onSelectArea={setSelectedAreaKey}
         routePolyline={summary.routePolyline}
+        mapViewport={summary.mapViewport}
       />
 
       <AreaStoryPanel
