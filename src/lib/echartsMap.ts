@@ -1,119 +1,154 @@
-import type { EChartsOption } from 'echarts';
-import type { AdminAreaStats } from './adminStats';
 import type { VideoRecord } from '../types';
 
-export const HUBEI_MAP_NAME = 'hubei-prefecture';
-
-export interface JourneyMapOptionInput {
+export function buildJourneyMapOption(params: {
   videos: VideoRecord[];
-  areaStats: AdminAreaStats[];
   selectedBvid: string;
-  selectedAreaKey: string;
   routePolyline: [number, number][];
-}
+  mapViewport?: {
+    center: [number, number];
+    zoom: number;
+    bounds: { west: number; south: number; east: number; north: number };
+  };
+}) {
+  const { videos, selectedBvid, routePolyline, mapViewport } = params;
 
-export function buildJourneyMapOption(input: JourneyMapOptionInput): EChartsOption {
-  const maxVideoCount = Math.max(1, ...input.areaStats.map((area) => area.videoCount));
-  const areaByName = new Map(input.areaStats.map((area) => [area.name, area]));
-  const pointData = input.videos
-    .filter((video) => video.location.lng !== null && video.location.lat !== null)
-    .map((video) => ({
-      name: video.title,
-      value: [video.location.lng, video.location.lat, video.sequenceIndex],
-      bvid: video.bvid,
-      locationLabel: video.location.label,
-      isActive: video.bvid === input.selectedBvid,
-      caught: video.fishing.caught,
-      skunked: video.fishing.isSkunked,
+  // 路线坐标
+  const routeCoords =
+    routePolyline.length > 0
+      ? routePolyline.map(([lng, lat]) => [lng, lat] as [number, number])
+      : videos
+          .filter((v) => v.location.lng !== null && v.location.lat !== null)
+          .map((v) => [v.location.lng!, v.location.lat!] as [number, number]);
+
+  // 视频点位
+  const scatterData = videos
+    .filter((v) => v.location.lat !== null && v.location.lng !== null)
+    .map((v) => ({
+      name: v.title.slice(0, 20),
+      value: [v.location.lng!, v.location.lat!] as [number, number],
+      bvid: v.bvid,
+      video: v,
     }));
 
-  const lineData =
-    input.routePolyline.length > 1
-      ? [{ coords: input.routePolyline, lineStyle: { width: 2 } }]
-      : [];
+  // 按状态分组
+  const catchHigh = scatterData.filter(
+    (d) => d.video.fishing.caught === 'yes' && d.video.location.confidence !== 'low',
+  );
+  const catchLow = scatterData.filter(
+    (d) => d.video.fishing.caught === 'yes' && d.video.location.confidence === 'low',
+  );
+  const unknown = scatterData.filter((d) => d.video.fishing.caught === 'unknown');
+  const skunked = scatterData.filter((d) => d.video.fishing.isSkunked === 'yes');
+  const selected = scatterData.filter((d) => d.bvid === selectedBvid);
+
+  const series: Array<Record<string, unknown>> = [
+    // 路线
+    {
+      type: 'lines',
+      coordinateSystem: 'geo',
+      polyline: false,
+      data: [{ coords: routeCoords }],
+      lineStyle: { color: '#ff9800', width: 2, opacity: 0.7, curveness: 0.1 },
+      effect: {
+        show: routeCoords.length > 1,
+        period: 6,
+        trailLength: 0.3,
+        symbolSize: 4,
+      },
+      zlevel: 1,
+    },
+    // 有渔获 + 高/中置信
+    {
+      type: 'scatter',
+      coordinateSystem: 'geo',
+      data: catchHigh.map((d) => ({ ...d, symbolSize: 12 })),
+      symbol: 'circle',
+      itemStyle: { color: '#4caf50', borderColor: '#2e7d32', borderWidth: 1.5 },
+      zlevel: 2,
+    },
+    // 有渔获 + 低置信
+    {
+      type: 'scatter',
+      coordinateSystem: 'geo',
+      data: catchLow.map((d) => ({ ...d, symbolSize: 11 })),
+      symbol: 'emptyCircle',
+      itemStyle: {
+        color: '#81c784',
+        borderColor: '#81c784',
+        borderWidth: 2,
+        borderType: 'dashed' as const,
+      },
+      zlevel: 2,
+    },
+    // 未知
+    {
+      type: 'scatter',
+      coordinateSystem: 'geo',
+      data: unknown.map((d) => ({ ...d, symbolSize: 10 })),
+      symbol: 'circle',
+      itemStyle: { color: '#9e9e9e', borderColor: '#757575', borderWidth: 1 },
+      zlevel: 2,
+    },
+    // 空军
+    {
+      type: 'scatter',
+      coordinateSystem: 'geo',
+      data: skunked.map((d) => ({ ...d, symbolSize: 11 })),
+      symbol: 'triangle',
+      itemStyle: { color: '#ef5350', borderColor: '#c62828', borderWidth: 1.5 },
+      zlevel: 2,
+    },
+    // 选中高亮
+    {
+      type: 'effectScatter',
+      coordinateSystem: 'geo',
+      data: selected.map((d) => ({ ...d, symbolSize: 18 })),
+      symbol: 'circle',
+      itemStyle: { color: '#ffffff', borderColor: '#ff9800', borderWidth: 3 },
+      rippleEffect: { brushType: 'stroke', scale: 3 },
+      zlevel: 3,
+    },
+  ];
 
   return {
-    backgroundColor: 'transparent',
-    tooltip: {
-      trigger: 'item',
-      formatter: (params) => formatTooltip(params, areaByName),
-    },
-    visualMap: {
-      min: 0,
-      max: maxVideoCount,
-      show: true,
-      calculable: false,
-      left: 18,
-      bottom: 18,
-      itemWidth: 12,
-      itemHeight: 80,
-      text: ['多', '少'],
-      textStyle: { color: '#c8d6a0', fontSize: 11 },
-      inRange: { color: ['#182514', '#486454', '#d59500'] },
-    },
+    backgroundColor: '#0f0f1a',
     geo: {
-      map: HUBEI_MAP_NAME,
+      map: '',
       roam: true,
-      zoom: 1.05,
-      label: { show: false },
+      center: mapViewport?.center ?? [111, 30.5],
+      zoom: mapViewport?.zoom ?? 6,
       itemStyle: {
-        areaColor: '#1a2410',
-        borderColor: 'rgba(200, 214, 160, 0.28)',
+        areaColor: '#1a1a2e',
+        borderColor: '#333355',
         borderWidth: 1,
       },
       emphasis: {
-        label: { show: true, color: '#e8e0cc', fontSize: 12 },
-        itemStyle: { areaColor: '#486454' },
+        itemStyle: { areaColor: '#252540' },
+        label: { show: false },
       },
-      select: {
-        label: { show: true, color: '#e8e0cc', fontWeight: 'bold' },
-        itemStyle: { areaColor: '#7a9a70', borderColor: '#d59500', borderWidth: 2 },
+      // 全国缩放范围
+      scaleLimit: { min: 3, max: 12 },
+    },
+    series,
+    tooltip: {
+      trigger: 'item',
+      formatter: (params: { name?: string; data?: { video?: VideoRecord } }) => {
+        const v = params.data?.video;
+        if (!v) return params.name ?? '';
+        const status =
+          v.fishing.caught === 'yes'
+            ? '✅ 有渔获'
+            : v.fishing.isSkunked === 'yes'
+              ? '❌ 空军'
+              : '❓ 未知';
+        const conf =
+          v.location.confidence === 'high'
+            ? '🟢'
+            : v.location.confidence === 'medium'
+              ? '🟡'
+              : '🔴';
+        return `${conf} ${v.title.slice(0, 30)}<br/>${v.location.label}<br/>${status}`;
       },
     },
-    series: [
-      {
-        type: 'map',
-        map: HUBEI_MAP_NAME,
-        geoIndex: 0,
-        selectedMode: 'single',
-        data: input.areaStats.map((area) => ({
-          name: area.name,
-          value: area.videoCount,
-          selected: area.key === input.selectedAreaKey,
-        })),
-      },
-      {
-        type: 'lines',
-        coordinateSystem: 'geo',
-        zlevel: 2,
-        silent: true,
-        polyline: true,
-        effect: { show: false },
-        lineStyle: { color: 'rgba(213, 149, 0, 0.58)', width: 2, opacity: 0.8 },
-        data: lineData,
-      },
-      {
-        type: 'effectScatter',
-        coordinateSystem: 'geo',
-        zlevel: 3,
-        symbolSize: (value: unknown) => {
-          const row = value as [number, number, number];
-          return row[2] ? 10 : 8;
-        },
-        rippleEffect: { scale: 3, brushType: 'stroke' },
-        itemStyle: { color: '#d59500', shadowColor: 'rgba(213,149,0,0.35)', shadowBlur: 10 },
-        data: pointData,
-      },
-    ],
   };
-}
-
-function formatTooltip(params: unknown, areaByName: Map<string, AdminAreaStats>) {
-  const item = params as { componentSubType?: string; name?: string; data?: Record<string, unknown> };
-  if (item.componentSubType === 'effectScatter') {
-    return `<strong>${item.name ?? ''}</strong><br/>${item.data?.locationLabel ?? ''}`;
-  }
-  const area = item.name ? areaByName.get(item.name) : null;
-  if (!area) return `<strong>${item.name ?? ''}</strong><br/>暂无视频`;
-  return `<strong>${area.name}</strong><br/>视频 ${area.videoCount} 期<br/>渔获 ${area.caughtCount} 期 / 空军 ${area.skunkedCount} 期`;
 }
