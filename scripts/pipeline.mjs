@@ -8,6 +8,7 @@ import { buildJourneySummary } from './lib/aggregate.mjs';
 import { buildVideoRecord } from './lib/build-record.mjs';
 import { refineVideoLocations } from './lib/refine-videos.mjs';
 import { analyzeVideoVisuals, publishVisualFrames } from './lib/visual-analysis.mjs';
+import { fetchComments } from './fetch-comments.mjs';
 
 const root = resolve(import.meta.dirname, '..');
 const playlistUrl =
@@ -36,6 +37,7 @@ const playlist = JSON.parse(
 
 const selectedEntries = [...playlist.entries].slice(-sampleLimit);
 const videos = [];
+const commentResults = [];
 
 for (const [index, entry] of selectedEntries.entries()) {
   const rawVideoDir = resolve(rawDir, entry.id);
@@ -124,6 +126,9 @@ for (const [index, entry] of selectedEntries.entries()) {
   });
   const visualAnalysisPath = visualAnalysis ? resolve(rawVideoDir, 'visual-evidence.json') : null;
 
+  // Fetch comments
+  const commentResult = fetchComments(entry.id, { limit: 200, forceRefresh });
+
   const previousVideo = videos.at(-1) ?? null;
   const built = buildVideoRecord({
     meta,
@@ -144,6 +149,7 @@ for (const [index, entry] of selectedEntries.entries()) {
   );
 
   videos.push(built.video);
+  commentResults.push({ bvid: entry.id, ...commentResult });
 }
 
 const refinedVideos = refineVideoLocations(videos);
@@ -160,8 +166,8 @@ const withCoords = videos.filter((v) => v.location.lat !== null && v.location.ln
 const lowConfLoc = videos.filter((v) => v.location.confidence === 'low').length;
 const unknownCatch = videos.filter((v) => v.fishing.caught === 'unknown').length;
 const unknownSkunk = videos.filter((v) => v.fishing.isSkunked === 'unknown').length;
-// 评论统计占位（阶段2接入）
-const commentSuccess = 0;
+// 评论统计
+const commentSuccess = commentResults.filter((r) => r.success).length;
 
 console.log('\n=== 数据质量报告 ===');
 console.log(`视频总数: ${refinedVideos.length}`);

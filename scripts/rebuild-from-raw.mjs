@@ -5,6 +5,7 @@ import { buildJourneySummary } from './lib/aggregate.mjs';
 import { buildVideoRecord } from './lib/build-record.mjs';
 import { refineVideoLocations } from './lib/refine-videos.mjs';
 import { loadVisualAnalysis, publishVisualFrames } from './lib/visual-analysis.mjs';
+import { fetchComments } from './fetch-comments.mjs';
 
 const root = resolve(import.meta.dirname, '..');
 const rawDir = resolve(root, 'raw/videos');
@@ -32,6 +33,7 @@ const metas = videoDirs
   .sort((a, b) => String(a.meta.upload_date).localeCompare(String(b.meta.upload_date)));
 
 const videos = [];
+const commentResults = [];
 
 for (const [index, item] of metas.entries()) {
   const subtitlePath = findFirstExisting([
@@ -66,6 +68,9 @@ for (const [index, item] of metas.entries()) {
   });
   const visualAnalysisPath = visualAnalysis ? resolve(item.dir, 'visual-evidence.json') : null;
 
+  // Fetch comments (uses cache if available)
+  const commentResult = fetchComments(item.meta.id, { limit: 200, forceRefresh: false });
+
   const built = buildVideoRecord({
     meta: item.meta,
     transcriptText,
@@ -80,6 +85,7 @@ for (const [index, item] of metas.entries()) {
   });
 
   videos.push(built.video);
+  commentResults.push({ bvid: item.meta.id, ...commentResult });
   writeFileSync(resolve(item.dir, 'evidence.json'), `${JSON.stringify(built.evidence, null, 2)}\n`);
 }
 
@@ -97,8 +103,8 @@ const withCoords = videos.filter((v) => v.location.lat !== null && v.location.ln
 const lowConfLoc = videos.filter((v) => v.location.confidence === 'low').length;
 const unknownCatch = videos.filter((v) => v.fishing.caught === 'unknown').length;
 const unknownSkunk = videos.filter((v) => v.fishing.isSkunked === 'unknown').length;
-// 评论统计占位（阶段2接入）
-const commentSuccess = 0;
+// 评论统计
+const commentSuccess = commentResults.filter((r) => r.success).length;
 
 console.log('\n=== 数据质量报告 ===');
 console.log(`视频总数: ${refinedVideos.length}`);
