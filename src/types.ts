@@ -1,5 +1,9 @@
 export type Confidence = 'high' | 'medium' | 'low' | 'unknown';
 
+/**
+ * 证据来源。保留 `| string` 是为了允许管线扩展来源时不需要同步改类型
+ * （新增来源的提取器脚本可以立即产出证据，类型层面再逐步收窄）。
+ */
 export type EvidenceSource =
   | 'meta'
   | 'subtitle'
@@ -35,6 +39,10 @@ export interface LocatedEntity {
   evidence: EvidenceItem[];
 }
 
+/**
+ * 评论证据 — 由 comment-extractors.mjs 产出，通过 evidence 字段接入 LocationCandidate 等候选类型。
+ * 不直接挂在 VideoIntel 下，而是作为候选的证据来源参与打分。
+ */
 export interface CommentEvidence {
   source: 'comment';
   rpid: string;
