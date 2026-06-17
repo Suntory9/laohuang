@@ -1,0 +1,159 @@
+{
+  "title": "老黄游钓中国旅程图谱",
+  "playlistId": "1173628599_6193999",
+  "playlistUrl": "https://space.bilibili.com/1173628599/lists/6193999?type=season",
+  "generatedAt": "2026-04-29T03:38:40.669Z",
+  "totalVideos": 20,
+  "coveredCities": 4,
+  "videosWithCatch": 7,
+  "videosWithUnknownCatch": 10,
+  "skunkedVideos": 3,
+  "videosWithUnknownSkunk": 10,
+  "totalShoppingCostCny": 11,
+  "averageActivitySpanHours": 8,
+  "topDinnerFoods": [
+    {
+      "label": "辣椒",
+      "count": 15
+    },
+    {
+      "label": "猪肉",
+      "count": 10
+    },
+    {
+      "label": "米饭",
+      "count": 8
+    },
+    {
+      "label": "豆瓣酱",
+      "count": 4
+    },
+    {
+      "label": "红椒",
+      "count": 3
+    },
+    {
+      "label": "胡豆",
+      "count": 2
+    }
+  ],
+  "topFishingTheoryTags": [
+    {
+      "label": "时段",
+      "count": 17
+    },
+    {
+      "label": "天气水情",
+      "count": 16
+    },
+    {
+      "label": "钓位",
+      "count": 15
+    },
+    {
+      "label": "饵料",
+      "count": 10
+    },
+    {
+      "label": "鱼情判断",
+      "count": 8
+    }
+  ],
+  "cityStops": [
+    {
+      "city": "恩施",
+      "count": 10,
+      "lat": 30.1843,
+      "lng": 108.8357
+    },
+    {
+      "city": "长阳",
+      "count": 5,
+      "lat": 30.4708,
+      "lng": 111.2016
+    },
+    {
+      "city": "宜昌",
+      "count": 1,
+      "lat": 30.6919,
+      "lng": 111.2865
+    },
+    {
+      "city": "荆州",
+      "count": 4,
+      "lat": 30.3352,
+      "lng": 112.2397
+    }
+  ],
+  "routePolyline": [
+    [
+      114.3423,
+      30.5454
+    ],
+    [
+      108.8357,
+      30.1843
+    ],
+    [
+      109.4882,
+      30.2722
+    ],
+    [
+      108.8357,
+      30.1843
+    ],
+    [
+      108.9367,
+      30.2965
+    ],
+    [
+      109.4882,
+      30.2722
+    ],
+    [
+      111.2016,
+      30.4708
+    ],
+    [
+      110.1414,
+      30.7342
+    ],
+    [
+      109.4882,
+      30.2722
+    ],
+    [
+      111.1985,
+      30.4726
+    ],
+    [
+      111.2016,
+      30.4708
+    ],
+    [
+      109.4882,
+      30.2722
+    ],
+    [
+      111.2865,
+      30.6919
+    ],
+    [
+      112.2397,
+      30.3352
+    ]
+  ],
+  "mapViewport": {
+    "center": [
+      111.589,
+      30.4593
+    ],
+    "zoom": 7,
+    "bounds": {
+      "west": 108.4357,
+      "south": 29.8843,
+      "east": 114.7423,
+      "north": 31.0342
+    }
+  }
+}

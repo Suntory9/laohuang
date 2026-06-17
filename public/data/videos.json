@@ -1,0 +1,4797 @@
+[
+  {
+    "bvid": "BV1cnNTzDES4",
+    "title": "下雨天被困废弃房，只能原地搞生活了",
+    "publishedAt": "2026-03-08T12:00:00.000Z",
+    "durationSec": 600,
+    "coverUrl": "http://i2.hdslb.com/bfs/archive/4a61b29cb20f93c0efea11f1db221a7390c9cce5.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV1cnNTzDES4",
+    "sequenceIndex": 1,
+    "transcriptSource": "official_subtitle",
+    "location": {
+      "label": "利川 · 谋道镇",
+      "province": "湖北省",
+      "city": "恩施",
+      "district": "利川市",
+      "poi": "谋道镇",
+      "lat": 30.1843,
+      "lng": 108.8357,
+      "confidence": "low",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：湖北"
+        },
+        {
+          "source": "sequence-inference",
+          "quote": "前序缺少有效地点，采用最近的后续已知地点 利川 · 谋道镇 作为低置信度推断。"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天有明显雷雨或大雨，视频里也提到雨势后续减弱或暂停",
+      "conditionTags": [
+        "下雨",
+        "强降雨",
+        "弱降雨",
+        "雨停"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": null,
+      "precipitationHint": "有明显强降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "一八点钟就醒了 剪剪辑了一下视频 就听到了滴滴答答的下雨声了 这个雨不小 但也不是那种暴雨 看了一下天气"
+        },
+        {
+          "source": "subtitle",
+          "quote": "生动物吧 也没有猫啊狗啊 来找我 阴雨绵绵的一天了 下雨的话骑自行车太恼火了 就不走 反正有房子住不慌"
+        },
+        {
+          "source": "subtitle",
+          "quote": "就听到了滴滴答答的下雨声了 这个雨不小 但也不是那种暴雨 看了一下天气预报 它会一直绵下去 一直下一天左"
+        },
+        {
+          "source": "subtitle",
+          "quote": "雨不小 但也不是那种暴雨 看了一下天气预报 它会一直绵下去 一直下一天左右吧 所以今天打算在这里休息一天"
+        },
+        {
+          "source": "subtitle",
+          "quote": "打扰 也没有一些野生动物吧 也没有猫啊狗啊 来找我 阴雨绵绵的一天了 下雨的话骑自行车太恼火了 就不走"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": null,
+      "toLabel": "湖北省",
+      "distanceKm": null,
+      "polyline": [
+        [
+          114.3423,
+          30.5454
+        ]
+      ],
+      "method": "none"
+    },
+    "timeSpan": {
+      "startTimeText": "早上",
+      "endTimeText": "晚上",
+      "durationHintText": "视频覆盖从 早上 到 晚上",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "12点"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "下午"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "晚上"
+        }
+      ],
+      "inferredDayPartTags": [
+        "早上",
+        "晚上",
+        "下午"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：12点"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐以辣椒炒肉为主",
+      "foods": [
+        "猪肉",
+        "辣椒"
+      ],
+      "cookingMethod": "炒",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：猪肉"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：辣椒"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 时段、天气水情",
+      "tags": [
+        "时段",
+        "天气水情"
+      ],
+      "techniques": [
+        "时段"
+      ],
+      "conditions": [
+        "天气水情"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "啊我是你们的老黄 我又回来咯 哎呀现在早上九点钟了 然后一八点钟就醒了 剪剪辑了一下视频"
+        },
+        {
+          "source": "subtitle",
+          "quote": "好久没补充水果了 买点配菜就行了啊 先休息一下 昨天晚上睡在这个房子里面还是挺不错的 挺安静的 又没有打"
+        },
+        {
+          "source": "subtitle",
+          "quote": "一八点钟就醒了 剪剪辑了一下视频 就听到了滴滴答答的下雨声了 这个雨不小 但也不是那种暴雨 看了一下天气"
+        },
+        {
+          "source": "subtitle",
+          "quote": "生动物吧 也没有猫啊狗啊 来找我 阴雨绵绵的一天了 下雨的话骑自行车太恼火了 就不走 反正有房子住不慌"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "unknown",
+      "isSkunked": "unknown",
+      "species": [],
+      "weightText": null,
+      "countText": null,
+      "evidence": []
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "啊我是你们的老黄 我又回来咯 哎呀现在早上九点钟了 然后一八点钟就醒了 剪剪辑了一下视频 就听到了滴滴答答的下雨声了 这个雨不小 但也不是那种暴雨 看了一下天气预报 它会一直绵下去 一直下一天左右吧 所以今天打算在这里休息一天吧 这个房子里面可以避雨 还是挺不错的 还好昨天在这里来了 捡到一个废弃房了 不然的话今天就难搞了 这出来没有带雨伞 但是带了雨衣的那",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV1cnNTzDES4/BV1cnNTzDES4.ai-zh.srt",
+      "/Users/songdc/laohuang/raw/videos/BV1cnNTzDES4/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV1cnNTzDES4/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV1ijPfznEka",
+    "title": "游钓到达湖北，终于可以钓鱼了，入住大山深处废弃房",
+    "publishedAt": "2026-03-10T12:00:00.000Z",
+    "durationSec": 1086,
+    "coverUrl": "http://i0.hdslb.com/bfs/archive/f05d30564a4518b89275a8c39f500c00f36011d1.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV1ijPfznEka",
+    "sequenceIndex": 2,
+    "transcriptSource": "official_subtitle",
+    "location": {
+      "label": "利川 · 谋道镇",
+      "province": "湖北省",
+      "city": "恩施",
+      "district": "利川市",
+      "poi": "谋道镇",
+      "lat": 30.1843,
+      "lng": 108.8357,
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：湖北"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：长岭镇"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：利川"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：谋道镇"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天有降雨，天色偏阴，伴随风力影响，视频里也提到雨势后续减弱或暂停",
+      "conditionTags": [
+        "下雨",
+        "刮风",
+        "阴天",
+        "雨停"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": "风大",
+      "precipitationHint": "有降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "在这个废弃房子里面躲了一天的雨啊 今天天气良好 没下雨了 咳咳应该是一个大阴天吧 今天准备离开这里了"
+        },
+        {
+          "source": "subtitle",
+          "quote": "应该是明天到湖北吧 因为今天要去住宾馆充电 今天没有下雨 但是是一个大阴天了 也没有太阳 前面几公里就到"
+        },
+        {
+          "source": "subtitle",
+          "quote": "住住哪一间 还在下面 你住哪一根呢 你住三楼的我 嗯风大那边 遇到同道中人了啊 你看这里也有人住过的啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "了一天的雨啊 今天天气良好 没下雨了 咳咳应该是一个大阴天吧 今天准备离开这里了 然后的话我的电呢 充两"
+        },
+        {
+          "source": "subtitle",
+          "quote": "吧 因为今天要去住宾馆充电 今天没有下雨 但是是一个大阴天了 也没有太阳 前面几公里就到万州 然后穿过城"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "利川 · 谋道镇",
+      "toLabel": "利川 · 谋道镇",
+      "distanceKm": 0,
+      "polyline": [
+        [
+          108.8357,
+          30.1843
+        ],
+        [
+          108.8357,
+          30.1843
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "晚上",
+      "endTimeText": "下午",
+      "durationHintText": "视频覆盖从 晚上 到 下午",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "下午"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "下午"
+        }
+      ],
+      "inferredDayPartTags": [
+        "晚上",
+        "下午"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "未在视频中明确提及",
+      "foods": [],
+      "cookingMethod": "炒",
+      "evidence": []
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 钓位、时段、天气水情",
+      "tags": [
+        "钓位",
+        "时段",
+        "天气水情"
+      ],
+      "techniques": [
+        "钓位",
+        "时段"
+      ],
+      "conditions": [
+        "天气水情"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "城区去开烤鱼店的 长江大桥 这个大桥特别的气派 这个位置我去年3月份来过的 去看一下有什么变化 看一下"
+        },
+        {
+          "source": "subtitle",
+          "quote": "么变了呀 我感觉哦我在那个树下面搭过帐篷的那里 那个位置在这个地方钓的鱼 这条河它还是属于近钓的 属于万"
+        },
+        {
+          "source": "subtitle",
+          "quote": "比较热 舒服啊 洗了个澡 浑身都青了 轻松多了 昨天晚上啊在这个小宾馆那住了一晚上 相当的不错 现在八点"
+        },
+        {
+          "source": "subtitle",
+          "quote": "浑身都青了 轻松多了 昨天晚上啊在这个小宾馆那住了一晚上 相当的不错 现在八点多钟了 准备出发 今天就四"
+        },
+        {
+          "source": "subtitle",
+          "quote": "在这个废弃房子里面躲了一天的雨啊 今天天气良好 没下雨了 咳咳应该是一个大阴天吧 今天准备离开这里了"
+        },
+        {
+          "source": "subtitle",
+          "quote": "应该是明天到湖北吧 因为今天要去住宾馆充电 今天没有下雨 但是是一个大阴天了 也没有太阳 前面几公里就到"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "yes",
+      "isSkunked": "no",
+      "species": [],
+      "weightText": null,
+      "countText": null,
+      "evidence": []
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "昨天下了一天的雨啊 在这个废弃房子里面躲了一天的雨啊 今天天气良好 没下雨了 咳咳应该是一个大阴天吧 今天准备离开这里了 然后的话我的电呢 充两个充电宝的电已经用完了 我感觉这个充电宝吧 它的电量啊没有去年那么耐用了 可能是续航能力变短了吧 用了一年了 都是旧的充电宝啊 去前面30km吧 长岭镇去住个宾馆嗯 充电洗澡 你看我这个衣服都包浆了呀 哈然后把头发剪",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV1ijPfznEka/BV1ijPfznEka.ai-zh.srt",
+      "/Users/songdc/laohuang/raw/videos/BV1ijPfznEka/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV1ijPfznEka/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV1bTwFzvEAp",
+    "title": "游钓湖北，探钓山间溪流，终于吃上微物了",
+    "publishedAt": "2026-03-11T12:00:00.000Z",
+    "durationSec": 820,
+    "coverUrl": "http://i0.hdslb.com/bfs/archive/8518e25edcfb3ff696f0c4cdffc0a2d195bc73fc.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV1bTwFzvEAp",
+    "sequenceIndex": 3,
+    "transcriptSource": "official_subtitle",
+    "location": {
+      "label": "恩施土家族苗族自治州",
+      "province": "湖北省",
+      "city": "恩施",
+      "district": null,
+      "poi": null,
+      "lat": 30.2722,
+      "lng": 109.4882,
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：湖北"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：恩施"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "体感偏冷或出现降温",
+      "conditionTags": [
+        "降温"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": null,
+      "precipitationHint": null,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "错的 现在早上八点多钟了啊 太阳还没出来冷 这山里面好冷啊 等会去河里面洗漱一下 然后把刀磨一下 好久没"
+        },
+        {
+          "source": "subtitle",
+          "quote": "开口啊 就下午温度高的时候有一点点口哎 收了吧 晚上好冷啊 这个山里面收了 收了回去搞生活 不过有两条马"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "利川 · 谋道镇",
+      "toLabel": "恩施土家族苗族自治州",
+      "distanceKm": 63.4,
+      "polyline": [
+        [
+          108.8357,
+          30.1843
+        ],
+        [
+          109.4882,
+          30.2722
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "晚上",
+      "endTimeText": "晚上",
+      "durationHintText": "视频覆盖从 晚上 到 晚上",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "下午"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "下午"
+        }
+      ],
+      "inferredDayPartTags": [
+        "晚上",
+        "早上",
+        "下午"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐是一菜一汤",
+      "foods": [],
+      "cookingMethod": "煮汤",
+      "evidence": []
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 鱼情判断、钓位、饵料、时段",
+      "tags": [
+        "鱼情判断",
+        "钓位",
+        "饵料",
+        "时段"
+      ],
+      "techniques": [
+        "钓位",
+        "饵料",
+        "时段"
+      ],
+      "conditions": [
+        "鱼情判断"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "有啊 这里面没鱼啊 什么情况 不会被电工光顾过了吧 没口 我就打算回去了 回我那个废弃房那个桥下面去钓啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "那个电影今天空军了 够用大了 今天要离开这里了 真的鱼情也不是鱼情不好吧 钓微物 我感觉是我的钓技盲区"
+        },
+        {
+          "source": "subtitle",
+          "quote": "煮成那个稀饭 剩了一点饭 把饭吃了 然后就去钓鱼了 河边上来洗脸磨刀 这山里面真的是只有几度啊 这早上的"
+        },
+        {
+          "source": "subtitle",
+          "quote": "快 它能立得住 走得很慢 用这个立漂还是可以的 这个位置看起来有鱼 实际上一口都没有啊 这里面没鱼啊 什"
+        },
+        {
+          "source": "subtitle",
+          "quote": "这么深 哇这个地方可以哇 深潭啊 兄弟们 先打一坨窝料下去 家里头 水深啊 在溪流钓里面算是深很深的了"
+        },
+        {
+          "source": "subtitle",
+          "quote": "应该是有大鱼的 所以说看有没有大鱼吧 来吧开钓开钓 打窝半个小时吧 抛下希望的底杆 咖喱头 这里走水它不"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "yes",
+      "isSkunked": "no",
+      "species": [],
+      "weightText": null,
+      "countText": null,
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "有啊 这里面没鱼啊 什么情况 不会被电工光顾过了吧 没口 我就打算回去了 回我那个废弃房那个桥下面去钓啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "条马口他不得5678两啊 对不对 下货啊 我就说嘛 空军是不可能空军的这个水质的马口 那是相当的nice"
+        }
+      ]
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "高露为物治安女神 我是个老黄 咳咳我有咳回来喽 哎呀昨天晚上住这个废弃房还挺不错的 现在早上八点多钟了啊 太阳还没出来冷 这山里面好冷啊 等会去河里面洗漱一下 然后把刀磨一下 好久没磨刀了 切菜都切不动了 然后再回来把昨天的剩饭煮成那个稀饭 剩了一点饭 把饭吃了 然后就去钓鱼了 河边上来洗脸磨刀 这山里面真的是只有几度啊 这早上的温度 等会太阳照起照过来了 ",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV1bTwFzvEAp/BV1bTwFzvEAp.ai-zh.srt",
+      "/Users/songdc/laohuang/raw/videos/BV1bTwFzvEAp/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV1bTwFzvEAp/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV1szcBzPETZ",
+    "title": "三十多岁活成社会边角料，出来游钓天为被地为床",
+    "publishedAt": "2026-03-12T12:00:00.000Z",
+    "durationSec": 992,
+    "coverUrl": "http://i0.hdslb.com/bfs/archive/dc48ef6dce7d64fd5ce5893e5e39d8f87217c8e1.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV1szcBzPETZ",
+    "sequenceIndex": 4,
+    "transcriptSource": "official_subtitle",
+    "location": {
+      "label": "利川 · 谋道镇",
+      "province": "湖北省",
+      "city": "恩施",
+      "district": "利川市",
+      "poi": "谋道镇",
+      "lat": 30.1843,
+      "lng": 108.8357,
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：谋道镇"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：湖北"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：利川"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：恩施"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天有降雨，有较明显日照，体感偏冷或出现降温",
+      "conditionTags": [
+        "下雨",
+        "降温",
+        "晴天"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": null,
+      "precipitationHint": "有降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "还可以啊 那就在这里露营了 刚才看了一下天气预报 不下雨 不下雨的话 露天的也没事吧 刚才骑空车出去啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "那就在这里露营了 刚才看了一下天气预报 不下雨 不下雨的话 露天的也没事吧 刚才骑空车出去啊 打了一壶"
+        },
+        {
+          "source": "subtitle",
+          "quote": "了 在这边找一下营地 你看这边有一个荒地 刚出隧道 好冷啊 啊这边我出隧道都看到了 有小路进去哇 这隧道"
+        },
+        {
+          "source": "subtitle",
+          "quote": "会收拾东西 去河里面洗漱一下 准备出发 今天也是一个大太阳啊 看一下在这里充电 嗯你这个钓鱼还在 刚才把"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "恩施土家族苗族自治州",
+      "toLabel": "利川 · 谋道镇",
+      "distanceKm": 63.4,
+      "polyline": [
+        [
+          109.4882,
+          30.2722
+        ],
+        [
+          108.8357,
+          30.1843
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "晚上",
+      "endTimeText": "下午",
+      "durationHintText": "视频覆盖从 晚上 到 下午",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "12点"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "下午"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "下午"
+        }
+      ],
+      "inferredDayPartTags": [
+        "晚上",
+        "下午"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：12点"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐以辣椒炒肉为主",
+      "foods": [
+        "米饭",
+        "猪肉",
+        "辣椒"
+      ],
+      "cookingMethod": "炒",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：米饭"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：猪肉"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：辣椒"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 钓位、天气水情",
+      "tags": [
+        "钓位",
+        "天气水情"
+      ],
+      "techniques": [
+        "钓位"
+      ],
+      "conditions": [
+        "天气水情"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "看起来挺危险的 你看带块石头下来 那谁顶得住啊 这个位置啊就能看到谋道镇上面的房子了 居然在这个山顶上面"
+        },
+        {
+          "source": "subtitle",
+          "quote": "过火啊 在外面吧 外面可以搭个帐篷吧 过了这么宽 这位置还可以啊 那就在这里露营了 刚才看了一下天气预报"
+        },
+        {
+          "source": "subtitle",
+          "quote": "不知不觉啊在这里呆了两个晚上了啊 今天就准备离开这里了啊 这边还行吧 体验了"
+        },
+        {
+          "source": "subtitle",
+          "quote": "是下坡了 然后前面是镇上 看能不能买到菜啊 现在已经下午一点钟了 这边全是同一风格的民宿 我滴个天 这个"
+        },
+        {
+          "source": "subtitle",
+          "quote": "还可以啊 那就在这里露营了 刚才看了一下天气预报 不下雨 不下雨的话 露天的也没事吧 刚才骑空车出去啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "那就在这里露营了 刚才看了一下天气预报 不下雨 不下雨的话 露天的也没事吧 刚才骑空车出去啊 打了一壶"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "unknown",
+      "isSkunked": "unknown",
+      "species": [],
+      "weightText": null,
+      "countText": null,
+      "evidence": []
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "不知不觉啊在这里呆了两个晚上了啊 今天就准备离开这里了啊 这边还行吧 体验了一下钓微物的感觉 接下来的路我将很少钓为物 都是以巨物为主 等会收拾东西 去河里面洗漱一下 准备出发 今天也是一个大太阳啊 看一下在这里充电 嗯你这个钓鱼还在 刚才把车装好了啊 已经09:30了 今天又是炎热的一天了 这边到谋道镇一共15km 然后有14km左右 就是大上坡 全程上坡",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV1szcBzPETZ/BV1szcBzPETZ.ai-zh.srt",
+      "/Users/songdc/laohuang/raw/videos/BV1szcBzPETZ/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV1szcBzPETZ/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV1qiwszQEtM",
+    "title": "游钓湖北，来到巨物横行的清江，找到废弃房搞生活",
+    "publishedAt": "2026-03-14T12:00:00.000Z",
+    "durationSec": 1369,
+    "coverUrl": "http://i0.hdslb.com/bfs/archive/cdece7236d444cdfffb11f1768c1360db29de39c.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV1qiwszQEtM",
+    "sequenceIndex": 5,
+    "transcriptSource": "official_subtitle",
+    "location": {
+      "label": "恩施州 · 利川市",
+      "province": "湖北省",
+      "city": "恩施",
+      "district": "利川市",
+      "poi": null,
+      "lat": 30.2965,
+      "lng": 108.9367,
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：湖北"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：清江"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：利川"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：恩施"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天有明显雷雨或大雨，天色偏阴，伴随风力影响",
+      "conditionTags": [
+        "强降雨",
+        "刮风",
+        "阴天",
+        "下雨"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": "风大",
+      "precipitationHint": "有明显强降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "有蓝天 只有白云 我记得去年来利川的时候 我的天天天下雨啊 把我淋惨了 没有见过太阳 今年还行 没怎么下"
+        },
+        {
+          "source": "subtitle",
+          "quote": "天下雨啊 把我淋惨了 没有见过太阳 今年还行 没怎么下雨 凉城利川这边确实比较凉啊 好冷啊 宝塔镇河妖1"
+        },
+        {
+          "source": "subtitle",
+          "quote": "个中间这个位置特别深 比其他地方都要深 这地方应该藏大雨的作用了 就出来了 钓闷杆必须要有你这个温度啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "的 火肺不知道多少年了 挺干净的 这么多沙子 应该是刮风的时候把河边上的沙子吹进来了 我这个房子废弃很久"
+        },
+        {
+          "source": "subtitle",
+          "quote": "不愧是凉城利川呐 这边晚上好冷啊 我的天 而且这个露水啊 你看这帐篷上面全是水"
+        },
+        {
+          "source": "subtitle",
+          "quote": "阳 今年还行 没怎么下雨 凉城利川这边确实比较凉啊 好冷啊 宝塔镇河妖12345677层塔 这个塔嘞建在"
+        },
+        {
+          "source": "subtitle",
+          "quote": "往恩施方向走啊 这天气就变好了 明显好多了 虽然不是大太阳吧 但是不是那种阴沉阴沉的了 大山里面来了啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "水啊 你看这帐篷上面全是水 外帐上面露水很重 今天是阴天 没有太阳了 等会儿收拾了吧 哎准备想晒会儿太阳"
+        },
+        {
+          "source": "subtitle",
+          "quote": "收拾了吧 哎准备想晒会儿太阳 把帐篷晒一下 结果是个阴天 看一下环境吧 这个废弃房还在 东西已经收拾好了"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "利川 · 谋道镇",
+      "toLabel": "恩施州 · 利川市",
+      "distanceKm": 15.8,
+      "polyline": [
+        [
+          108.8357,
+          30.1843
+        ],
+        [
+          108.9367,
+          30.2965
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "晚上",
+      "endTimeText": "下午",
+      "durationHintText": "视频覆盖从 晚上 到 下午",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "下午"
+        }
+      ],
+      "inferredDayPartTags": [
+        "晚上",
+        "下午"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐以辣椒炒肉为主",
+      "foods": [
+        "猪肉",
+        "豆瓣酱",
+        "辣椒",
+        "米饭"
+      ],
+      "cookingMethod": "炒",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：猪肉"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：豆瓣酱"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：辣椒"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：米饭"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 鱼情判断、钓位、饵料、时段、天气水情",
+      "tags": [
+        "鱼情判断",
+        "钓位",
+        "饵料",
+        "时段",
+        "天气水情"
+      ],
+      "techniques": [
+        "钓位",
+        "饵料",
+        "时段"
+      ],
+      "conditions": [
+        "鱼情判断",
+        "天气水情"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "须要有你这个温度啊 还没完全上升呢 不是特别热 那个鱼口应该还是不太重 所以说用个小一点的主线 2.0"
+        },
+        {
+          "source": "subtitle",
+          "quote": "他竿尖都拖不动了 这边没什么搞头啊 全是小鱼 全是小鱼口 我去那边冲钓一下 试一下 看那边好几个人 搞里"
+        },
+        {
+          "source": "subtitle",
+          "quote": "就到那边去了 山那边去了 穿这个大山 看一下 在这个位置休息一下呀 天哪这个山太高了 看一下 这是个露营"
+        },
+        {
+          "source": "subtitle",
+          "quote": "那边走吧 到了啊 看一下这清江 我去 有个大桥 这个位置钓鱼都可以 就那个方向应该就是大峡谷的方向 我的"
+        },
+        {
+          "source": "subtitle",
+          "quote": "煸一点出来 撒点蒜片 加点豆豉 增加的风味和独特性 豆瓣酱少了一点点 今天吃辣一点的辣椒面 搞里头 这耳"
+        },
+        {
+          "source": "subtitle",
+          "quote": "不愧是凉城利川呐 这边晚上好冷啊 我的天 而且这个露水啊 你看这帐篷上面全"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "yes",
+      "isSkunked": "no",
+      "species": [],
+      "weightText": null,
+      "countText": null,
+      "evidence": []
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "不愧是凉城利川呐 这边晚上好冷啊 我的天 而且这个露水啊 你看这帐篷上面全是水 外帐上面露水很重 今天是阴天 没有太阳了 等会儿收拾了吧 哎准备想晒会儿太阳 把帐篷晒一下 结果是个阴天 看一下环境吧 这个废弃房还在 东西已经收拾好了 我搬出来收拾了 你看刚好准备出发挖地的来了 他们这边种菜了 已经来恩施啊 2323天了啊 这里是恩施州利川市好吧 那么接下来的",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV1qiwszQEtM/BV1qiwszQEtM.ai-zh.srt",
+      "/Users/songdc/laohuang/raw/videos/BV1qiwszQEtM/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV1qiwszQEtM/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV12cwjzCExF",
+    "title": "冒雨前行一天，全身湿透，在大山深处找到废弃房躲避寒冷",
+    "publishedAt": "2026-03-16T12:00:00.000Z",
+    "durationSec": 1266,
+    "coverUrl": "http://i1.hdslb.com/bfs/archive/4630a1a51f2bf5fb24bb68081b2919220e14d2e2.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV12cwjzCExF",
+    "sequenceIndex": 6,
+    "transcriptSource": "official_subtitle",
+    "location": {
+      "label": "恩施土家族苗族自治州",
+      "province": "湖北省",
+      "city": "恩施",
+      "district": null,
+      "poi": null,
+      "lat": 30.2722,
+      "lng": 109.4882,
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：恩施"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：宜昌"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天以小雨或绵雨为主，天色偏阴",
+      "conditionTags": [
+        "下雨",
+        "弱降雨",
+        "阴天"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": null,
+      "precipitationHint": "有降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "阴雨绵绵咯 你看帐篷里面就能看到外面的风景了 不过在下雨啊 今天就不走 在这里休息 看一下阴雨绵绵的 现"
+        },
+        {
+          "source": "subtitle",
+          "quote": "在这里休息 看一下阴雨绵绵的 现在鱼还小了一点 今天下雨啊 就在帐篷里面待着吧 嗯下雨也不想走 不过今天"
+        },
+        {
+          "source": "subtitle",
+          "quote": "阴雨绵绵咯 你看帐篷里面就能看到外面的风景了 不过在"
+        },
+        {
+          "source": "subtitle",
+          "quote": "风景了 不过在下雨啊 今天就不走 在这里休息 看一下阴雨绵绵的 现在鱼还小了一点 今天下雨啊 就在帐篷里"
+        },
+        {
+          "source": "subtitle",
+          "quote": "的乡村小道哦 蓝天白云就好了 就可以看风景了 下雨天雾蒙雾蒙的 没什么可看的 When you're d"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "恩施州 · 利川市",
+      "toLabel": "恩施土家族苗族自治州",
+      "distanceKm": 53,
+      "polyline": [
+        [
+          108.9367,
+          30.2965
+        ],
+        [
+          109.4882,
+          30.2722
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "晚上",
+      "endTimeText": "下午",
+      "durationHintText": "视频覆盖从 晚上 到 下午",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "下午"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "下午"
+        }
+      ],
+      "inferredDayPartTags": [
+        "晚上",
+        "下午"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐以辣椒炒肉为主",
+      "foods": [
+        "辣椒",
+        "猪肉",
+        "米饭"
+      ],
+      "cookingMethod": "炒",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：辣椒"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：猪肉"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：米饭"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 钓位、时段、天气水情",
+      "tags": [
+        "钓位",
+        "时段",
+        "天气水情"
+      ],
+      "techniques": [
+        "钓位",
+        "时段"
+      ],
+      "conditions": [
+        "天气水情"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "小猪肉 七块钱 又买了两个大肉包 吃上那么一吃 恩施边上的一个小镇子吧 比较大 挨着大城市的镇呢 他就是"
+        },
+        {
+          "source": "subtitle",
+          "quote": "柴火 外面雨又下大了 今天就不搭帐篷了啊 直接在这个位置垫个垫子就可以拍碎了 这下面还有柴火 哎垫起来垫"
+        },
+        {
+          "source": "subtitle",
+          "quote": "待着吧 嗯下雨也不想走 不过今天也没事啊 我还有今天晚上的菜还是有的 还有哼上次的煮的回锅肉还有一块哼"
+        },
+        {
+          "source": "subtitle",
+          "quote": "你们的老黄 我又回来了 哇不知不觉在这个房子住了两个晚上 下了一天一夜的雨啊 现在还没停 还在下 不过就"
+        },
+        {
+          "source": "subtitle",
+          "quote": "阴雨绵绵咯 你看帐篷里面就能看到外面的风景了 不过在下雨啊 今天就不走 在这里休息 看一下阴雨绵绵的 现"
+        },
+        {
+          "source": "subtitle",
+          "quote": "在这里休息 看一下阴雨绵绵的 现在鱼还小了一点 今天下雨啊 就在帐篷里面待着吧 嗯下雨也不想走 不过今天"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "unknown",
+      "isSkunked": "unknown",
+      "species": [],
+      "weightText": null,
+      "countText": null,
+      "evidence": []
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "阴雨绵绵咯 你看帐篷里面就能看到外面的风景了 不过在下雨啊 今天就不走 在这里休息 看一下阴雨绵绵的 现在鱼还小了一点 今天下雨啊 就在帐篷里面待着吧 嗯下雨也不想走 不过今天也没事啊 我还有今天晚上的菜还是有的 还有哼上次的煮的回锅肉还有一块哼 而且我来这里的时候买了那个辣椒的 可以辣椒炒肉 唉明天就必须得离开这里了 明天下不下雨 我都要走了 没物资他就不",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV12cwjzCExF/BV12cwjzCExF.ai-zh.srt",
+      "/Users/songdc/laohuang/raw/videos/BV12cwjzCExF/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV12cwjzCExF/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV1YswZzuEyV",
+    "title": "极速降温差点感冒，废弃崖景房躲避寒冷，一天就吃一顿炒饭",
+    "publishedAt": "2026-03-18T12:00:00.000Z",
+    "durationSec": 1110,
+    "coverUrl": "http://i1.hdslb.com/bfs/archive/40e545293e456d5463343aca6d4267a242ebe0ab.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV1YswZzuEyV",
+    "sequenceIndex": 7,
+    "transcriptSource": "official_subtitle",
+    "location": {
+      "label": "恩施土家族苗族自治州",
+      "province": "湖北省",
+      "city": "恩施",
+      "district": null,
+      "poi": null,
+      "lat": 30.2722,
+      "lng": 109.4882,
+      "confidence": "low",
+      "evidence": [
+        {
+          "source": "sequence-inference",
+          "quote": "标题呈现连续叙事，沿用上一条已知地点 恩施土家族苗族自治州。"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天有明显雷雨或大雨，伴随风力影响，体感偏冷或出现降温，视频里也提到雨势后续减弱或暂停",
+      "conditionTags": [
+        "下雨",
+        "强降雨",
+        "刮风",
+        "降温",
+        "雨停"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": "风大",
+      "precipitationHint": "有明显强降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "来哇 我的看一下外面的情况 现在雾气散去了啊 只是在下雨 看一下环境挺不错的 这个门还可以关住 透不了风"
+        },
+        {
+          "source": "subtitle",
+          "quote": "啊 搞个手套 现在是中午12点多钟啊 上午的话一直在下雨啊 一直在睡在里面取暖 呵呵呵哎走了2km啊 终"
+        },
+        {
+          "source": "subtitle",
+          "quote": "个门 圆形的 现在雨可能小了一点了吧 早上真的是又是暴雨啊 还刮风 昨天晚上 嗯雨小了一点了 估计要停个"
+        },
+        {
+          "source": "subtitle",
+          "quote": "的 现在雨可能小了一点了吧 早上真的是又是暴雨啊 还刮风 昨天晚上 嗯雨小了一点了 估计要停个半个小时哇"
+        },
+        {
+          "source": "subtitle",
+          "quote": "昨天晚上睡在这个床上还是相当的nice的 昨天晚上温度外面的温度应该是一两度吧 房间里面应该是3456"
+        },
+        {
+          "source": "subtitle",
+          "quote": "下的小啊 搞快一点 不然等会雨下大了就麻烦了 这个手好冷啊 看有没有手套啊 搞个手套 现在是中午12点多"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "恩施土家族苗族自治州",
+      "toLabel": "恩施土家族苗族自治州",
+      "distanceKm": 0,
+      "polyline": [
+        [
+          109.4882,
+          30.2722
+        ],
+        [
+          109.4882,
+          30.2722
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "晚上",
+      "endTimeText": "下午",
+      "durationHintText": "视频覆盖从 晚上 到 下午",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "早上"
+        }
+      ],
+      "inferredDayPartTags": [
+        "晚上",
+        "早上",
+        "中午12点",
+        "下午"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐是炒饭",
+      "foods": [
+        "辣椒",
+        "米饭"
+      ],
+      "cookingMethod": "炒",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：辣椒"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：米饭"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 钓位、时段",
+      "tags": [
+        "钓位",
+        "时段"
+      ],
+      "techniques": [
+        "钓位",
+        "时段"
+      ],
+      "conditions": [],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "是有人在钓啊 这无人机飞不起来啊 下雨天不然不太好找钓位啊 前面是南里渡大桥 去那个桥上面看一下 有一个"
+        },
+        {
+          "source": "subtitle",
+          "quote": "没电用了 然后住宿的时候嘞 我就可以骑空车出来找一找钓位 因为无人机飞不了啊 这个能飞的话 我就可以就方"
+        },
+        {
+          "source": "subtitle",
+          "quote": "啊啊 起床了呀 昨天晚上睡在这个床上还是相当的nice的 昨天晚上温度外"
+        },
+        {
+          "source": "subtitle",
+          "quote": "了呀 昨天晚上睡在这个床上还是相当的nice的 昨天晚上温度外面的温度应该是一两度吧 房间里面应该是34"
+        },
+        {
+          "source": "subtitle",
+          "quote": "来哇 我的看一下外面的情况 现在雾气散去了啊 只是在下雨 看一下环境挺不错的 这个门还可以关住 透不了风"
+        },
+        {
+          "source": "subtitle",
+          "quote": "的 现在雨可能小了一点了吧 早上真的是又是暴雨啊 还刮风 昨天晚上 嗯雨小了一点了 估计要停个半个小时哇"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "unknown",
+      "isSkunked": "unknown",
+      "species": [],
+      "weightText": null,
+      "countText": null,
+      "evidence": []
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "啊啊 起床了呀 昨天晚上睡在这个床上还是相当的nice的 昨天晚上温度外面的温度应该是一两度吧 房间里面应该是3456度 睡袋里面还是比较暖和的 下了一晚上的雨 今天比昨天还要冷呢 嗯啊唉还好有这个睡袋呀 不然真的扛不住啊 没想到这个山上面这么冷 比重庆的冬天都还冷 前面我在地图上面看有一个村子 嗯啊村子里面有小卖部 去村子里面转一下 大概2km吧啊 等会骑",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV1YswZzuEyV/BV1YswZzuEyV.ai-zh.srt",
+      "/Users/songdc/laohuang/raw/videos/BV1YswZzuEyV/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV1YswZzuEyV/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV1bhAEzREc8",
+    "title": "天气太冷鱼情不暴躁，全是微物，这怎么得鸟呀",
+    "publishedAt": "2026-03-20T12:00:00.000Z",
+    "durationSec": 799,
+    "coverUrl": "http://i0.hdslb.com/bfs/archive/d97b7dcd4d9ca30542747b1dbda7650cc7010433.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV1bhAEzREc8",
+    "sequenceIndex": 8,
+    "transcriptSource": "asr",
+    "location": {
+      "label": "长阳 · 清江",
+      "province": "湖北省",
+      "city": "长阳",
+      "district": "长阳土家族自治县",
+      "poi": "清江",
+      "lat": 30.4708,
+      "lng": 111.2016,
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：清江"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天以小雨或绵雨为主，体感偏冷或出现降温",
+      "conditionTags": [
+        "下雨",
+        "弱降雨",
+        "降温"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": null,
+      "precipitationHint": "有降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "了一晚上 这个民宿驻起来还是挺舒服的 今天好像没怎么下雨了 现在雨的话就越来越小了 下雨是下雨的 前几天"
+        },
+        {
+          "source": "subtitle",
+          "quote": "服的 今天好像没怎么下雨了 现在雨的话就越来越小了 下雨是下雨的 前几天是因为真的差点感冒了 一直鼻涩流"
+        },
+        {
+          "source": "subtitle",
+          "quote": "么一个情况吧 一个铁皮房 铁蓬蓬 看一下 如果下一些小雨的话 是可以防得住的 不过有个缺点 这边高一点"
+        },
+        {
+          "source": "subtitle",
+          "quote": "得住的 不过有个缺点 这边高一点 可能会流水下来 那小雨一般没事 你们在这里烧过火了 应该也是调雨的 喝"
+        },
+        {
+          "source": "subtitle",
+          "quote": "在雨的话就越来越小了 下雨是下雨的 前几天是因为真的差点感冒了 一直鼻涩流鼻涩 昨天开了一晚上空调吹了"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "恩施土家族苗族自治州",
+      "toLabel": "长阳 · 清江",
+      "distanceKm": 165.9,
+      "polyline": [
+        [
+          109.4882,
+          30.2722
+        ],
+        [
+          111.2016,
+          30.4708
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "晚上",
+      "endTimeText": "晚上",
+      "durationHintText": "视频覆盖从 晚上 到 晚上",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "下午"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "下午"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "晚上10点钟"
+        }
+      ],
+      "inferredDayPartTags": [
+        "晚上",
+        "下午",
+        "晚上10点钟",
+        "晚上11点钟",
+        "早上9点",
+        "中午"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "未在视频中明确提及",
+      "foods": [],
+      "cookingMethod": "烧",
+      "evidence": []
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 鱼情判断、饵料、时段、天气水情",
+      "tags": [
+        "鱼情判断",
+        "饵料",
+        "时段",
+        "天气水情"
+      ],
+      "techniques": [
+        "饵料",
+        "时段"
+      ],
+      "conditions": [
+        "鱼情判断",
+        "天气水情"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "晚上11点钟 哪个是一口都没有 这里只有拜条 其他鱼口没有 然后全场 六七个人没有人上鱼 全是空军 基"
+        },
+        {
+          "source": "subtitle",
+          "quote": "昨天吊了 就是这个丸子 吊丸子外面 丸子里面 昨天都没口 长个短个人都没口 其他吊鱼也是空军 对面那个山"
+        },
+        {
+          "source": "subtitle",
+          "quote": "过去 又来到了蓝岭都大桥 你看一下 我把调味选择那个位置的 大帐篷选择那个苏林里面的 然后那边是个丸子"
+        },
+        {
+          "source": "subtitle",
+          "quote": "你看 哎哟哟哟 总有一道了 从这个蓝岭下去 就到后边上了 太蓝搞了 我去这个路也太蓝了 这里还是比较隐"
+        },
+        {
+          "source": "subtitle",
+          "quote": "刚才打了个窝子 休息一下 把柴火弄一下 赶紧一下 打窝子的时候 就好多大鱼在那个边上跳 我感觉 这一把"
+        },
+        {
+          "source": "subtitle",
+          "quote": "昨天在这里休息了一晚上 这个民宿驻起来还是挺舒服的 今天好像没怎么下雨"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "unknown",
+      "isSkunked": "unknown",
+      "species": [
+        "白条"
+      ],
+      "weightText": null,
+      "countText": null,
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "这里只有拜条 其他鱼口没有 然后全场 六七个人没有人上鱼 全是空军 基本上都已经收了 我也收了 准备 档"
+        },
+        {
+          "source": "subtitle",
+          "quote": "条 其他鱼口没有 然后全场 六七个人没有人上鱼 全是空军 基本上都已经收了 我也收了 准备 档铺那还没打"
+        },
+        {
+          "source": "subtitle",
+          "quote": "昨天来这里吊了 好几个小时 五六七八个小时 真的是空军 只有拜条 然后晚上 这里还可以 昨天晚上也下了"
+        },
+        {
+          "source": "subtitle",
+          "quote": "口 太冷了 全部摸在和中间的生水去 确实是 只有那个白条啊 小微物开口 准备就熟了吧 等会儿还是去吃干凉"
+        },
+        {
+          "source": "subtitle",
+          "quote": "了吧 估计有个疫情重了 我要放的好多了 你看 清燒 白条 全部放的 坚决不吃微物 今天就离开着你了 现在"
+        }
+      ]
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "昨天在这里休息了一晚上 这个民宿驻起来还是挺舒服的 今天好像没怎么下雨了 现在雨的话就越来越小了 下雨是下雨的 前几天是因为真的差点感冒了 一直鼻涩流鼻涩 昨天开了一晚上空调吹了 感觉好多了 感觉又状态十足 昨天下午我去那个 这应该是清江的滋流 蓝岭度库税 我去下面看了 下面已经找到调味和露营地了 好吧 等会把东西收拾了 就直接过去 又来到了蓝岭都大桥 你看",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV1bhAEzREc8/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV1bhAEzREc8/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV1faAMz5Ej1",
+    "title": "艰难爬上野三关，半山腰找到废弃房，烧柴火做饭吃",
+    "publishedAt": "2026-03-22T12:00:00.000Z",
+    "durationSec": 1669,
+    "coverUrl": "http://i2.hdslb.com/bfs/archive/7ae4a89f0d1e922f09def9dda2712f0cc441fb93.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV1faAMz5Ej1",
+    "sequenceIndex": 9,
+    "transcriptSource": "official_subtitle",
+    "location": {
+      "label": "巴东 · 野三关镇",
+      "province": "湖北省",
+      "city": "恩施",
+      "district": "巴东县",
+      "poi": "野三关镇",
+      "lat": 30.7342,
+      "lng": 110.1414,
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：野三关"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：恩施"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：宜昌"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：建始县"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天有降雨，天色偏阴",
+      "conditionTags": [
+        "下雨",
+        "阴天"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": null,
+      "precipitationHint": "有降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "猪肉搞里头 早上八九点钟啊 上午七八点钟的时候一直在下雨 下的挺大的 现在快九点了 这个雨好像小了一点吧"
+        },
+        {
+          "source": "subtitle",
+          "quote": "的 现在快九点了 这个雨好像小了一点吧 中午可能不会下雨吧 今天的话就打算离开这里了 在这里鱼也没钓到啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "怎么得了啊 等会把东西收拾了 离开这里了 看一下吧 阴雨绵绵的 每天都要下一阵雨嗯 等会儿东西收拾完 估"
+        },
+        {
+          "source": "subtitle",
+          "quote": "挑我这种苦命人的 不钓鱼了 直接阳光明媚 蓝天白云 大太阳 这谁顶得住啊 还热起来了啊 恩施建始县高坪镇"
+        },
+        {
+          "source": "subtitle",
+          "quote": "发出发 八点多钟了 大只瓶子离开这里了 今天白天又是大太阳了 估计蓝天白云的 看一下后面吧 白天比较暖和"
+        },
+        {
+          "source": "subtitle",
+          "quote": "舒服啊 每次推大坡的时候 都是对于自己的一次挑战了 雾蒙雾蒙的山中小镇看起来格外的宁静 不敢回看 左顾右"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "长阳 · 清江",
+      "toLabel": "巴东 · 野三关镇",
+      "distanceKm": 105.6,
+      "polyline": [
+        [
+          111.2016,
+          30.4708
+        ],
+        [
+          110.1414,
+          30.7342
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "早上",
+      "endTimeText": "早上",
+      "durationHintText": "视频覆盖从 早上 到 早上",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "中午"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "下午"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "晚上"
+        }
+      ],
+      "inferredDayPartTags": [
+        "早上",
+        "中午",
+        "下午",
+        "晚上",
+        "中午12点钟"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：中午"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐以辣椒炒肉为主",
+      "foods": [
+        "猪肉",
+        "辣椒"
+      ],
+      "cookingMethod": "炒",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：猪肉"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：辣椒"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 钓位、时段、天气水情",
+      "tags": [
+        "钓位",
+        "时段",
+        "天气水情"
+      ],
+      "techniques": [
+        "钓位",
+        "时段"
+      ],
+      "conditions": [
+        "天气水情"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "看到这边还看不完 这个山给挡住了 野三关镇的话 他的位置特别的好 从外面到西南山区进来 必须通通过这里"
+        },
+        {
+          "source": "subtitle",
+          "quote": "是下坡待半壶吧 现在下山了 一点都不慌 先看一下这路边上的废弃房是个什么情况 这废弃房屋漏雨啊 这不行啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "小猪肉搞里头 早上八九点钟啊 上午七八点钟的时候一直在下雨 下的挺"
+        },
+        {
+          "source": "subtitle",
+          "quote": "雨 下的挺大的 现在快九点了 这个雨好像小了一点吧 中午可能不会下雨吧 今天的话就打算离开这里了 在这里"
+        },
+        {
+          "source": "subtitle",
+          "quote": "猪肉搞里头 早上八九点钟啊 上午七八点钟的时候一直在下雨 下的挺大的 现在快九点了 这个雨好像小了一点吧"
+        },
+        {
+          "source": "subtitle",
+          "quote": "的 现在快九点了 这个雨好像小了一点吧 中午可能不会下雨吧 今天的话就打算离开这里了 在这里鱼也没钓到啊"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "no",
+      "isSkunked": "yes",
+      "species": [],
+      "weightText": null,
+      "countText": null,
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "可能不会下雨吧 今天的话就打算离开这里了 在这里鱼也没钓到啊 哎呀这怎么得了啊 等会把东西收拾了 离开这"
+        }
+      ]
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "小猪肉搞里头 早上八九点钟啊 上午七八点钟的时候一直在下雨 下的挺大的 现在快九点了 这个雨好像小了一点吧 中午可能不会下雨吧 今天的话就打算离开这里了 在这里鱼也没钓到啊 哎呀这怎么得了啊 等会把东西收拾了 离开这里了 看一下吧 阴雨绵绵的 每天都要下一阵雨嗯 等会儿东西收拾完 估计就不怎么下雨了 好的 刚才把东西收拾好了 看一下 东西收拾好了 把车推到国",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV1faAMz5Ej1/BV1faAMz5Ej1.ai-zh.srt",
+      "/Users/songdc/laohuang/raw/videos/BV1faAMz5Ej1/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV1faAMz5Ej1/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV1fBQ9B2EbJ",
+    "title": "一路翻山越岭，被迫在大峡谷扎营，晚上烧排骨吃",
+    "publishedAt": "2026-03-23T12:00:00.000Z",
+    "durationSec": 1316,
+    "coverUrl": "http://i0.hdslb.com/bfs/archive/550d44f69b8028d0d7f2e2891bec85ae6177ae71.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV1fBQ9B2EbJ",
+    "sequenceIndex": 10,
+    "transcriptSource": "official_subtitle",
+    "location": {
+      "label": "恩施土家族苗族自治州",
+      "province": "湖北省",
+      "city": "恩施",
+      "district": null,
+      "poi": null,
+      "lat": 30.2722,
+      "lng": 109.4882,
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：宜昌"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：恩施"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天有降雨",
+      "conditionTags": [
+        "下雨"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": null,
+      "precipitationHint": "有降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "锅碗瓢盆洗了 看一下地顶 打上鞋子 放这里来 怕晚上下雨啊 这个位置就淋不到雨了 这几个包我就放进来了"
+        },
+        {
+          "source": "subtitle",
+          "quote": "做饭吃 看一下香菇还在不在 香菇还在哇 今天又是一个晴天咯 舒服安逸 很少做完早饭吃 因为昨天消耗实在太"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "巴东 · 野三关镇",
+      "toLabel": "恩施土家族苗族自治州",
+      "distanceKm": 81,
+      "polyline": [
+        [
+          110.1414,
+          30.7342
+        ],
+        [
+          109.4882,
+          30.2722
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "晚上",
+      "endTimeText": "晚上",
+      "durationHintText": "视频覆盖从 晚上 到 晚上",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "晚上"
+        }
+      ],
+      "inferredDayPartTags": [
+        "晚上",
+        "早上",
+        "下午"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐是烧排骨",
+      "foods": [
+        "猪肉",
+        "豆瓣酱"
+      ],
+      "cookingMethod": "烧",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：猪肉"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：豆瓣酱"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 饵料、时段、天气水情",
+      "tags": [
+        "饵料",
+        "时段",
+        "天气水情"
+      ],
+      "techniques": [
+        "饵料",
+        "时段"
+      ],
+      "conditions": [
+        "天气水情"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "看一下 那下面有块空的地方 有小路下去比较陡 那个位置有空的地方 这个河南的货车不喷水了 不敢走了 那"
+        },
+        {
+          "source": "subtitle",
+          "quote": "好陡啊 上去的话估计要分两次上去啊 黑下来了呀 这个位置还可以啊 还有柴火 安静峡谷下面还有柴火 看大木"
+        },
+        {
+          "source": "subtitle",
+          "quote": "倒入排骨 小料大料 树叶八角桂皮干熬里头 少加一点点豆瓣酱啊 萝卜搞里头 来点低度料酒去香增腥 好的吉时"
+        },
+        {
+          "source": "subtitle",
+          "quote": "倒入排骨 倒入 我是你们老婆 我要起床喽呀昨天晚上在这个半山腰的 我也应该是半山腰吧 房废弃房里面"
+        },
+        {
+          "source": "subtitle",
+          "quote": "这个半山腰的 我也应该是半山腰吧 房废弃房里面住了一晚上 关键还是相当不错的 非常的安静 晚上嗯 晚上的"
+        },
+        {
+          "source": "subtitle",
+          "quote": "锅碗瓢盆洗了 看一下地顶 打上鞋子 放这里来 怕晚上下雨啊 这个位置就淋不到雨了 这几个包我就放进来了"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "unknown",
+      "isSkunked": "unknown",
+      "species": [],
+      "weightText": null,
+      "countText": null,
+      "evidence": []
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "倒入排骨 倒入 我是你们老婆 我要起床喽呀昨天晚上在这个半山腰的 我也应该是半山腰吧 房废弃房里面住了一晚上 关键还是相当不错的 非常的安静 晚上嗯 晚上的话也是比较凉快的 还还可以吧 也不热凉快 听着鸟叫声 虫叫声 花草树木的尖叫声 慢慢的入眠 相当的不错啊 兄弟们哎啊 起床了起床 现在是早上08:30了 兄弟们昨天晚上都切好了 这个是肉啊 放在帐篷里面的",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV1fBQ9B2EbJ/BV1fBQ9B2EbJ.ai-zh.srt",
+      "/Users/songdc/laohuang/raw/videos/BV1fBQ9B2EbJ/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV1fBQ9B2EbJ/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV1DtQqBJEkj",
+    "title": "冒雨前行，艰难走出大山，游钓湖北正式开始",
+    "publishedAt": "2026-03-24T12:00:00.000Z",
+    "durationSec": 1149,
+    "coverUrl": "http://i1.hdslb.com/bfs/archive/1fec1d132e593aaa3d0bb3ed75b152edada3be76.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV1DtQqBJEkj",
+    "sequenceIndex": 11,
+    "transcriptSource": "asr",
+    "location": {
+      "label": "长阳 · 龙舟坪镇",
+      "province": "湖北省",
+      "city": "长阳",
+      "district": "长阳土家族自治县",
+      "poi": "龙舟坪镇",
+      "lat": 30.4726,
+      "lng": 111.1985,
+      "confidence": "low",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：湖北"
+        },
+        {
+          "source": "sequence-inference",
+          "quote": "标题仅说明到达省域，结合下一条已知地点 长阳 · 龙舟坪镇 推断当前停留点。"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "体感偏冷或出现降温",
+      "conditionTags": [
+        "降温"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": null,
+      "precipitationHint": null,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "再去收藏棚了 把东西搬出去 不然全部打死了就麻烦了 下雨 好蓝色 赶快收了 现在雨晓了 萌萌的山谷 下了"
+        },
+        {
+          "source": "subtitle",
+          "quote": "两次也来得跑 慢慢推上去吧 现在伏外的话最怕的就是下雨啊 下雨天 失路路的比较难受 但是这是自然天气"
+        },
+        {
+          "source": "subtitle",
+          "quote": "一面面喽 休息了一下 继续走啊 赶快下山上的山上面好冷了 没有手套 上次买的那个手套不见了 不再丢了你"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "恩施土家族苗族自治州",
+      "toLabel": "长阳 · 龙舟坪镇",
+      "distanceKm": 165.6,
+      "polyline": [
+        [
+          109.4882,
+          30.2722
+        ],
+        [
+          111.1985,
+          30.4726
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "早上7点钟",
+      "endTimeText": "晚上",
+      "durationHintText": "视频覆盖从 早上7点钟 到 晚上",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "早上7点钟"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "下午"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "下午"
+        }
+      ],
+      "inferredDayPartTags": [
+        "早上7点钟",
+        "晚上",
+        "下午"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上7点钟"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐是牛肉炒菜",
+      "foods": [
+        "辣椒"
+      ],
+      "cookingMethod": "炒",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：辣椒"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 时段",
+      "tags": [
+        "时段"
+      ],
+      "techniques": [
+        "时段"
+      ],
+      "conditions": [],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "早上7点钟 准备起床了 昨天下半夜 下了 下了一晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "早上7点钟 准备起床了 昨天下半夜 下了 下了一晚上的雨 怎么等点 现在雨晓了 准备雨晓的时候把东西"
+        },
+        {
+          "source": "subtitle",
+          "quote": "再去收藏棚了 把东西搬出去 不然全部打死了就麻烦了 下雨 好蓝色 赶快收了 现在雨晓了 萌萌的山谷 下了"
+        },
+        {
+          "source": "subtitle",
+          "quote": "两次也来得跑 慢慢推上去吧 现在伏外的话最怕的就是下雨啊 下雨天 失路路的比较难受 但是这是自然天气"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "unknown",
+      "isSkunked": "unknown",
+      "species": [],
+      "weightText": null,
+      "countText": null,
+      "evidence": []
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "早上7点钟 准备起床了 昨天下半夜 下了 下了一晚上的雨 怎么等点 现在雨晓了 准备雨晓的时候把东西收拾了 也要触发一下这个地方 旁边有个沟 昨天晚上都没水 今天晚上在流水了 所以我们有山上面在流水下来 赶快收拾东西走了 看一下外面什么情况 哇呀 萌萌细呀 蓝色 看 赶快收东西 赶快收东西 赢最快的速度了 往这里推上去 旁边都有水了 收拾了一下东西 雨下大了",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV1DtQqBJEkj/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV1DtQqBJEkj/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV17NXtBMEW3",
+    "title": "游钓湖北，来到长阳县，当地钓友说这里的鱼都上岸咬人了",
+    "publishedAt": "2026-03-27T12:00:00.000Z",
+    "durationSec": 1052,
+    "coverUrl": "http://i0.hdslb.com/bfs/archive/78133ded2493d385454dfec958a6a97a53f29b5f.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV17NXtBMEW3",
+    "sequenceIndex": 12,
+    "transcriptSource": "official_subtitle",
+    "location": {
+      "label": "长阳 · 龙舟坪镇",
+      "province": "湖北省",
+      "city": "长阳",
+      "district": "长阳土家族自治县",
+      "poi": "龙舟坪镇",
+      "lat": 30.4726,
+      "lng": 111.1985,
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：湖北"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：长阳县"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：恩施"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：宜昌"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天有降雨，天色偏阴",
+      "conditionTags": [
+        "下雨",
+        "阴天"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": null,
+      "precipitationHint": "有降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "小鸡肉下米粉 东西已经装好了 阴天不知道会不会下雨啊 你看山上雾蒙雾蒙的 然后这两天在这里休息啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "面向清江 你看还有老鹰在天上盘旋 感觉乌云密布的 要下雨了呀 然后那就是支流 我沿着那个支流下来的 支流"
+        },
+        {
+          "source": "subtitle",
+          "quote": "小鸡肉下米粉 东西已经装好了 阴天不知道会不会下雨啊 你看山上雾蒙雾蒙的 然后这两"
+        },
+        {
+          "source": "subtitle",
+          "quote": "粉 东西已经装好了 阴天不知道会不会下雨啊 你看山上雾蒙雾蒙的 然后这两天在这里休息啊 因为爬这个恩施宜"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "长阳 · 龙舟坪镇",
+      "toLabel": "长阳 · 龙舟坪镇",
+      "distanceKm": 0,
+      "polyline": [
+        [
+          111.1985,
+          30.4726
+        ],
+        [
+          111.1985,
+          30.4726
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "晚上",
+      "endTimeText": "晚上",
+      "durationHintText": "视频覆盖从 晚上 到 晚上",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "下午"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "下午"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "下午"
+        }
+      ],
+      "inferredDayPartTags": [
+        "晚上",
+        "下午"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐以辣椒炒肉为主",
+      "foods": [
+        "猪肉",
+        "胡豆",
+        "米饭",
+        "辣椒"
+      ],
+      "cookingMethod": "烧",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：猪肉"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：胡豆"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：米饭"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：辣椒"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 鱼情判断、钓位、饵料、时段、天气水情",
+      "tags": [
+        "鱼情判断",
+        "钓位",
+        "饵料",
+        "时段",
+        "天气水情"
+      ],
+      "techniques": [
+        "钓位",
+        "饵料",
+        "时段"
+      ],
+      "conditions": [
+        "鱼情判断",
+        "天气水情"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "才还陆陆续续有钓鱼人来 刚才问过了 当地钓友跟我说 鱼情暴躁啊 巨物横行 就在前几天那个攻坚计啊 就跳起"
+        },
+        {
+          "source": "subtitle",
+          "quote": "今天买了那个菜啊 去把生活搞了 已经饿的不行了 这边鱼情确实比较差 可能离城市太近了 刚才把帐篷搭好了"
+        },
+        {
+          "source": "subtitle",
+          "quote": "们开发出来 种了一些油菜花吧 还有这个蚕豆 胡豆这个位置面向清江 你看还有老鹰在天上盘旋 感觉乌云密布的"
+        },
+        {
+          "source": "subtitle",
+          "quote": "方 那还淋不到雨 这地方不知道是干嘛的 有个机器这个位置啊 这里淋不到雨 刚才我又已经下去看过了啊 下面"
+        },
+        {
+          "source": "subtitle",
+          "quote": "登高望远 这里水深还行 两节杆两节半竿 2米多吧 饵料开了开了开了开了 晚上加餐 原汤化原食 这天气太"
+        },
+        {
+          "source": "subtitle",
+          "quote": "搞得没得没得没得啊 哎刚才准备在下面的 刚才那钓友说晚上可能涨水 涨水就被淹了 这个台台这上面来吧 登高"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "yes",
+      "isSkunked": "no",
+      "species": [
+        "鲫鱼",
+        "鲤鱼"
+      ],
+      "weightText": null,
+      "countText": null,
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "一口都没有啊 旁边这个棚棚里面坐了两个人了 也没看到上鱼 而且现在下游电站那个隔河岩电站应该在发电 现在"
+        },
+        {
+          "source": "subtitle",
+          "quote": "站应该在发电 现在退水了 退了差不多十公分下去了 哇中了中了我去我去 突然来一口啊 兄弟们都八点钟了啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "了啊 锅碗瓢盆洗了 准备休息了 今天在这里钓的话 也没钓到什么正经鱼啊 主要是试探一下这边的鱼情吧 明天"
+        },
+        {
+          "source": "subtitle",
+          "quote": "中了中了我去我去 突然来一口啊 兄弟们都八点钟了啊 鲫鱼鲫鱼 我去不容易啊 兄弟们 这真不容易啊 哇这不"
+        },
+        {
+          "source": "subtitle",
+          "quote": "中了我去我去 突然来一口啊 兄弟们都八点钟了啊 鲫鱼鲫鱼 我去不容易啊 兄弟们 这真不容易啊 哇这不是鲫"
+        }
+      ]
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "小鸡肉下米粉 东西已经装好了 阴天不知道会不会下雨啊 你看山上雾蒙雾蒙的 然后这两天在这里休息啊 因为爬这个恩施宜昌这段山路啊 真的是把我累惨了 休息了两天两夜才缓过劲来啊 今天第三天就准备离开这里了 这地方还可以啊 有卫生间 还有电用嗯 休息两天也不缺电用吧 准备出发了 继续往长阳县去清江搞剧务了 旁边这条河是清江支流 很浑的 这个水上面在修路 原来水是清",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV17NXtBMEW3/BV17NXtBMEW3.ai-zh.srt",
+      "/Users/songdc/laohuang/raw/videos/BV17NXtBMEW3/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV17NXtBMEW3/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV1ojXRByEnr",
+    "title": "清江果然有巨物，和当地钓友一起搞生活",
+    "publishedAt": "2026-03-30T12:00:00.000Z",
+    "durationSec": 1397,
+    "coverUrl": "http://i2.hdslb.com/bfs/archive/ea1a94769a975bf1862da72afdb1cc668652bcb3.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV1ojXRByEnr",
+    "sequenceIndex": 13,
+    "transcriptSource": "official_subtitle",
+    "location": {
+      "label": "长阳 · 清江",
+      "province": "湖北省",
+      "city": "长阳",
+      "district": "长阳土家族自治县",
+      "poi": "清江",
+      "lat": 30.4708,
+      "lng": 111.2016,
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：清江"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：清江库区"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：湖北"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：宜昌"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天有明显雷雨或大雨，天色偏阴，视频里也提到雨势后续减弱或暂停",
+      "conditionTags": [
+        "下雨",
+        "强降雨",
+        "弱降雨",
+        "阴天",
+        "雨停"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": null,
+      "precipitationHint": "有明显强降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "的雾气蒙蒙的 你看难怪雾露水这么大 你看全是湿的 没下雨啊 自行车那么就还在呀 自行车也是水滴水滴的 呵"
+        },
+        {
+          "source": "subtitle",
+          "quote": "加这个矿泉水 洗菜的话就是用的河里面的 希望晚上别下雨吧 这位钓友大哥又叫了几个钓友过来一起吃一点嗯"
+        },
+        {
+          "source": "subtitle",
+          "quote": "还应该是没吃稳呢 哇现在是凌晨02:30 屋子里面进大雨了 哇这鳞片呼 现在是早上五点过一点了 晚上下半"
+        },
+        {
+          "source": "subtitle",
+          "quote": "云 青山绿水嘶 为什么今天不好钓呢 因为前段时间都是阴雨绵绵的 今天是大太阳 而且升温了 温度升的很高"
+        },
+        {
+          "source": "subtitle",
+          "quote": "方还是要吃上鱼啊 本来今天都可以吃鱼了的 哎 下起了小雨啊 白天就在帐篷里面休息吧 今天晚上还是夜钓一下"
+        },
+        {
+          "source": "subtitle",
+          "quote": "面鱼种多达六七十种啊 可谓是巨物横行呐 真的是今天出大太阳 舆情应该也是暴躁的一天 一个拉车拉好行 看一"
+        },
+        {
+          "source": "subtitle",
+          "quote": "什么今天不好钓呢 因为前段时间都是阴雨绵绵的 今天是大太阳 而且升温了 温度升的很高 今天第一天升温口肯"
+        },
+        {
+          "source": "subtitle",
+          "quote": "外脏都是湿的 内脏是干的 我打了地钉的 你看大早上的雾气蒙蒙的 你看难怪雾露水这么大 你看全是湿的 没下"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "长阳 · 龙舟坪镇",
+      "toLabel": "长阳 · 清江",
+      "distanceKm": 0.4,
+      "polyline": [
+        [
+          111.1985,
+          30.4726
+        ],
+        [
+          111.2016,
+          30.4708
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "早上",
+      "endTimeText": "11点钟",
+      "durationHintText": "视频覆盖从 早上 到 11点钟",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "下午"
+        }
+      ],
+      "inferredDayPartTags": [
+        "早上",
+        "晚上",
+        "下午",
+        "中午"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐以辣椒炒肉为主",
+      "foods": [
+        "猪肉",
+        "辣椒"
+      ],
+      "cookingMethod": "炒",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：猪肉"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：辣椒"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 鱼情判断、钓位、饵料、时段、天气水情",
+      "tags": [
+        "鱼情判断",
+        "钓位",
+        "饵料",
+        "时段",
+        "天气水情"
+      ],
+      "techniques": [
+        "钓位",
+        "饵料",
+        "时段"
+      ],
+      "conditions": [
+        "鱼情判断",
+        "天气水情"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "我看一下我东西还在不在 在这边来夜钓吧 这边白天也没有口 就晚上可能会有口 东西还在 先去把窝子做了 天"
+        },
+        {
+          "source": "subtitle",
+          "quote": "不在 在这边来夜钓吧 这边白天也没有口 就晚上可能会有口 东西还在 先去把窝子做了 天都快黑了 起床了啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "然后这是我的一包菜 还有柴火 这个水袋打算藏在这个位置 免得浪半东半西的这个车骑骑过去就行了 这个地方"
+        },
+        {
+          "source": "subtitle",
+          "quote": "弯里面大山深处啊 难怪要开车才行 这路太陡了 找一下钓位啊 听钓友说啊 这里面鱼种多达六七十种啊 可谓是"
+        },
+        {
+          "source": "subtitle",
+          "quote": "取鱼了 看一下吧 就是这个地方做了记号的 水深5米 打窝子打在这里的应该是发窝了吧 两天两夜了呀 好的"
+        },
+        {
+          "source": "subtitle",
+          "quote": "我是你们老黄哈哈 我又起床了喔 早上刚好七点钟 今天早点起来呀 因为今天约了当地的钓"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "yes",
+      "isSkunked": "no",
+      "species": [
+        "白条",
+        "鲤鱼",
+        "鲢鳙"
+      ],
+      "weightText": "20斤",
+      "countText": null,
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "露营的那个位置去夜钓吧 那边其实希望还大一点 你看我上鱼了耶啊啊 趴地虎啊 这怎么得了啊 哎败一条还脱钩"
+        },
+        {
+          "source": "subtitle",
+          "quote": "阳的一天了 把东西收拾一下 白天准备去钓鱼 钓到晚上钓到了再收竿 我打算今天再钓搏一搏吧 再钓最后一天"
+        },
+        {
+          "source": "subtitle",
+          "quote": "深在3米左右 来吧来吧 看一下钓友带我暴富 还是带我空军了 舒服舒服 远山藏着个少年郎 清晨爬上那高坡"
+        },
+        {
+          "source": "subtitle",
+          "quote": "五个小时 那是一口都没有啊 这个钓友不是带我来报复的空军的呀 他已经放弃了这个钓位 去那个渭水钓浅水钓那"
+        },
+        {
+          "source": "subtitle",
+          "quote": "军的呀 他已经放弃了这个钓位 去那个渭水钓浅水钓那个白条去了 那边好多人钓白条 我的话宁愿空军我也不愿意"
+        },
+        {
+          "source": "subtitle",
+          "quote": "个钓位 去那个渭水钓浅水钓那个白条去了 那边好多人钓白条 我的话宁愿空军我也不愿意钓白条啊 坐在这里空军"
+        }
+      ]
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "我是你们老黄哈哈 我又起床了喔 早上刚好七点钟 今天早点起来呀 因为今天约了当地的钓友啊 他带我去下面清江库区啊 钓鱼好吧 今天早点起来 哎呀昨天晚上睡在这里还可以啊 就是晚上不冷 但是这边露水特别重啊 整个外脏都是湿的 内脏是干的 我打了地钉的 你看大早上的雾气蒙蒙的 你看难怪雾露水这么大 你看全是湿的 没下雨啊 自行车那么就还在呀 自行车也是水滴水滴的 ",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV1ojXRByEnr/BV1ojXRByEnr.ai-zh.srt",
+      "/Users/songdc/laohuang/raw/videos/BV1ojXRByEnr/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV1ojXRByEnr/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV1D7XzBZE94",
+    "title": "今天入住江边废弃房，又可以搞巨物了",
+    "publishedAt": "2026-03-31T12:00:00.000Z",
+    "durationSec": 1272,
+    "coverUrl": "http://i0.hdslb.com/bfs/archive/2f1beb0a9200a00d21615265133d90f4bf8ea3c7.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV1D7XzBZE94",
+    "sequenceIndex": 14,
+    "transcriptSource": "asr",
+    "location": {
+      "label": "长阳 · 清江",
+      "province": "湖北省",
+      "city": "长阳",
+      "district": "长阳土家族自治县",
+      "poi": "清江",
+      "lat": 30.4708,
+      "lng": 111.2016,
+      "confidence": "low",
+      "evidence": [
+        {
+          "source": "sequence-inference",
+          "quote": "标题呈现连续叙事，沿用上一条已知地点 长阳 · 清江。"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天有降雨，有较明显日照，伴随风力影响",
+      "conditionTags": [
+        "下雨",
+        "刮风",
+        "晴天"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": "风大",
+      "precipitationHint": "有降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "点就 叫进水 还行 外打算明天要离开这里 希望明天别下雨 下雨的话就不好离开这里了 这里鱼群不怎么爆灶不"
+        },
+        {
+          "source": "subtitle",
+          "quote": "叫进水 还行 外打算明天要离开这里 希望明天别下雨 下雨的话就不好离开这里了 这里鱼群不怎么爆灶不说 这"
+        },
+        {
+          "source": "subtitle",
+          "quote": "面有热 虾鱼啊 又难受 说说有个房子是最舒服的 不怕刮风虾鱼 现在把这些菜呀 咱肯定出来 今天花了十三块"
+        },
+        {
+          "source": "subtitle",
+          "quote": "的要舒适很多 住路天的话 这个天气变化太快了 如果出大太阳帐篷里面有热 虾鱼啊 又难受 说说有个房子是最"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "长阳 · 清江",
+      "toLabel": "长阳 · 清江",
+      "distanceKm": 0,
+      "polyline": [
+        [
+          111.2016,
+          30.4708
+        ],
+        [
+          111.2016,
+          30.4708
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "晚上",
+      "endTimeText": "早上",
+      "durationHintText": "视频覆盖从 晚上 到 早上",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "晚上"
+        }
+      ],
+      "inferredDayPartTags": [
+        "晚上",
+        "早上",
+        "下午"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐是排骨",
+      "foods": [
+        "辣椒",
+        "猪肉"
+      ],
+      "cookingMethod": "炒",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：辣椒"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：猪肉"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 鱼情判断、钓位、时段、天气水情",
+      "tags": [
+        "鱼情判断",
+        "钓位",
+        "时段",
+        "天气水情"
+      ],
+      "techniques": [
+        "钓位",
+        "时段"
+      ],
+      "conditions": [
+        "鱼情判断",
+        "天气水情"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "听旁边掉的时候 今天大退水 退了一两米生下去了 它也没口 到处都没口 没办法 而且位置选错了 这边比较浅"
+        },
+        {
+          "source": "subtitle",
+          "quote": "候 今天大退水 退了一两米生下去了 它也没口 到处都没口 没办法 而且位置选错了 这边比较浅 看起来是实"
+        },
+        {
+          "source": "subtitle",
+          "quote": "脉 忘不到镜头 这怎么得鸟啊 今天唯一的目标就是找个河边上 然后最好是有飞去房 让我多语 然后把找洗一下"
+        },
+        {
+          "source": "subtitle",
+          "quote": "泽 这里大水下应该问题不到吧 这是非层比较重 先打扫位置 然后再拎包入层 全是羊分了 如果打扫出来 这个"
+        },
+        {
+          "source": "subtitle",
+          "quote": "鸚鸚 鸚鸚 调油搞完生活吃完饭了 晚上真的是下辣鱼了 然后地点松了 这个鸚鸚是玩的 应"
+        },
+        {
+          "source": "subtitle",
+          "quote": "爆灶的 经常下雨 有点懒搞 先睡觉了明天再说吧 昨天晚上是下了一夜的鱼 还好早上 现在八点多钟了 早上没"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "yes",
+      "isSkunked": "no",
+      "species": [],
+      "weightText": null,
+      "countText": null,
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "就没离开这里了 往金州方向走吧 来这里 一条鱼都没钓到了 东西收拾好了 就没离开这里了 看一下 我给了"
+        },
+        {
+          "source": "subtitle",
+          "quote": "直接这个无人驾驶车 而且这个山里面了 现在 十一点都中了 这村里面 家家夫妇都在搞生活了呀 都闻得到那个"
+        },
+        {
+          "source": "subtitle",
+          "quote": "了 就没离开这里了 往金州方向走吧 来这里 一条鱼都没钓到了 东西收拾好了 就没离开这里了 看一下 我给"
+        },
+        {
+          "source": "subtitle",
+          "quote": "听旁边掉的时候 今天大退水 退了一两米生下去了 它也没口 到处都没口 没办法 而且位置选错了 这边比较浅"
+        }
+      ]
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "鸚鸚 鸚鸚 调油搞完生活吃完饭了 晚上真的是下辣鱼了 然后地点松了 这个鸚鸚是玩的 应该被鱼临失了 松了 地点就调了 看一下这个内脏 应该是进水了 在内脏 外脏把不了地点就 叫进水 还行 外打算明天要离开这里 希望明天别下雨 下雨的话就不好离开这里了 这里鱼群不怎么爆灶不说 这个鱼群呢 还是比较爆灶的 经常下雨 有点懒搞 先睡觉了明天再说吧 昨天晚上是下了一",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV1D7XzBZE94/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV1D7XzBZE94/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV13C95BZE5U",
+    "title": "游钓湖北终于打破纪录，钓到斤鲫，晚上吃一菜一汤",
+    "publishedAt": "2026-04-01T12:00:00.000Z",
+    "durationSec": 1393,
+    "coverUrl": "http://i2.hdslb.com/bfs/archive/2fe4047c150fc08290e706de0a2c8f49f47d6d15.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV13C95BZE5U",
+    "sequenceIndex": 15,
+    "transcriptSource": "official_subtitle",
+    "location": {
+      "label": "恩施土家族苗族自治州",
+      "province": "湖北省",
+      "city": "恩施",
+      "district": null,
+      "poi": null,
+      "lat": 30.2722,
+      "lng": 109.4882,
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：湖北"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：恩施"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：宜昌"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天有明显雷雨或大雨，天色偏阴，体感偏冷或出现降温，视频里也提到雨势后续减弱或暂停",
+      "conditionTags": [
+        "强降雨",
+        "弱降雨",
+        "降温",
+        "阴天",
+        "下雨",
+        "雨停"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": null,
+      "precipitationHint": "有明显强降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "昨天晚上下了一点小雨吧 也没事 今天好像是个阴天 不下雨了 准备本来想赶个早口 结果睡过头了 调个闹钟没"
+        },
+        {
+          "source": "subtitle",
+          "quote": "自行车锁在一楼的停车房还在 哎呦昨天晚上是不是还下了大雨了 你看全湿了 不过我睡着了也没听到啊 看一下老"
+        },
+        {
+          "source": "subtitle",
+          "quote": "可能是太冷了 晚上太冷了 白天又热 这温差比较大 大雨还是习惯不了啊 因为我钩子用的10号的一斗10号"
+        },
+        {
+          "source": "subtitle",
+          "quote": "这个废弃房相当的nice啊 舒服嗯 昨天晚上下了一点小雨吧 也没事 今天好像是个阴天 不下雨了 准备本来"
+        },
+        {
+          "source": "subtitle",
+          "quote": "米一口都没有 咱用两个搓饵吧 来手一杆 然后就熟了 好冷啊 晚上这是那条裤子 我把它翻过来 里面有毛披在"
+        },
+        {
+          "source": "subtitle",
+          "quote": "呦呦 回家的感觉真好啊 还是帐篷里面暖和 快休息休息好冷啊 外面现在应该是快六点钟了吧 看一下几点钟哎"
+        },
+        {
+          "source": "subtitle",
+          "quote": "舒服嗯 昨天晚上下了一点小雨吧 也没事 今天好像是个阴天 不下雨了 准备本来想赶个早口 结果睡过头了 调"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "长阳 · 清江",
+      "toLabel": "恩施土家族苗族自治州",
+      "distanceKm": 165.9,
+      "polyline": [
+        [
+          111.2016,
+          30.4708
+        ],
+        [
+          109.4882,
+          30.2722
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "下午",
+      "endTimeText": "晚上",
+      "durationHintText": "视频覆盖从 下午 到 晚上",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "下午"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "中午"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "晚上"
+        }
+      ],
+      "inferredDayPartTags": [
+        "下午",
+        "晚上",
+        "中午",
+        "早上"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：中午"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐是一菜一汤",
+      "foods": [
+        "辣椒"
+      ],
+      "cookingMethod": "炒",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：辣椒"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 鱼情判断、钓位、饵料、时段、天气水情",
+      "tags": [
+        "鱼情判断",
+        "钓位",
+        "饵料",
+        "时段",
+        "天气水情"
+      ],
+      "techniques": [
+        "钓位",
+        "饵料",
+        "时段"
+      ],
+      "conditions": [
+        "鱼情判断",
+        "天气水情"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "不太好 啊这退水退的太快了 这怎么得了啊 不知道有没有口啊 先试一下这个钓位啊 全是稀泥巴的 看一下 坐"
+        },
+        {
+          "source": "subtitle",
+          "quote": "主线 8号伊豆钩 还是挂两颗玉米 先熟两个小时 玉米没口的话就换饵料来钓 先挂两颗 这钩子用的比较小吧"
+        },
+        {
+          "source": "subtitle",
+          "quote": "翘嘴 石青的翘嘴啊 应该是成群成群结队啊 今天这么早钓位应该还在吧 鬼我打在那里了 啊没人还行 给大家看"
+        },
+        {
+          "source": "subtitle",
+          "quote": "隔夜我打在这里打了一包老痰下去了 涡轮增压 因为这个位置只能坐一个 如果打在那边的话 他能坐好几个人 就"
+        },
+        {
+          "source": "subtitle",
+          "quote": "豆钩 还是挂两颗玉米 先熟两个小时 玉米没口的话就换饵料来钓 先挂两颗 这钩子用的比较小吧 因为是白天晚"
+        },
+        {
+          "source": "subtitle",
+          "quote": "玉米守了两个小时 真是一口都没有啊 打算撤了 换这个饵料来钓一下 试一下 干里头 我教你调漂找底 开饵打"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "yes",
+      "isSkunked": "no",
+      "species": [
+        "翘嘴",
+        "鲫鱼",
+        "鲤鱼",
+        "草鱼"
+      ],
+      "weightText": null,
+      "countText": null,
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "目前就是这个计划吧 回去休息两个小时 这计划完美 哎中了中了中中中中中 我已经哇 终于守到了吧 鲫鱼吗"
+        },
+        {
+          "source": "subtitle",
+          "quote": "就是这个计划吧 回去休息两个小时 这计划完美 哎中了中了中中中中中 我已经哇 终于守到了吧 鲫鱼吗 搞到"
+        },
+        {
+          "source": "subtitle",
+          "quote": "的哎呦 你看山上好多老前辈啊 今天一辆车都没有 昨天空军的太多了 昨天可能是大退水啊 退水退的休没什么口"
+        },
+        {
+          "source": "subtitle",
+          "quote": "多了 昨天可能是大退水啊 退水退的休没什么口 好多人空军了 今天没来了 拿上家伙四哎呀 开整开整 自行车"
+        },
+        {
+          "source": "subtitle",
+          "quote": "河里面听说是有大李子 还有经济随处可见的经济 还有大翘嘴 石青的翘嘴啊 应该是成群成群结队啊 今天这么早"
+        },
+        {
+          "source": "subtitle",
+          "quote": "有大李子 还有经济随处可见的经济 还有大翘嘴 石青的翘嘴啊 应该是成群成群结队啊 今天这么早钓位应该还在"
+        }
+      ]
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "导入巨物在哪里投 在哪里投 起床了啊 昨天来到这里啊 已经下午了吧 然后睡了一晚上 这个废弃房相当的nice啊 舒服嗯 昨天晚上下了一点小雨吧 也没事 今天好像是个阴天 不下雨了 准备本来想赶个早口 结果睡过头了 调个闹钟没听到啊 唉先去吧 白天先去钓半天吧 再说好吧 看一下睡觉的环境呢也是相当的哇塞呀 还有这么多柴火 还够烧两次了 然后中午再去捡一点吧 看",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV13C95BZE5U/BV13C95BZE5U.ai-zh.srt",
+      "/Users/songdc/laohuang/raw/videos/BV13C95BZE5U/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV13C95BZE5U/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV1759KB1Egb",
+    "title": "今天没钓到鱼，上山挖了点野菜，废弃房做个野葱闷饭吃",
+    "publishedAt": "2026-04-03T12:00:00.000Z",
+    "durationSec": 1296,
+    "coverUrl": "http://i1.hdslb.com/bfs/archive/4020e9c2a2be9c71d0945c014eaab4c436f8d881.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV1759KB1Egb",
+    "sequenceIndex": 16,
+    "transcriptSource": "official_subtitle",
+    "location": {
+      "label": "宜昌",
+      "province": "湖北省",
+      "city": "宜昌",
+      "district": null,
+      "poi": null,
+      "lat": 30.6919,
+      "lng": 111.2865,
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：宜昌"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：湖北"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天有明显雷雨或大雨，有较明显日照，伴随风力影响",
+      "conditionTags": [
+        "下雨",
+        "强降雨",
+        "弱降雨",
+        "刮风",
+        "晴天"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": "风大",
+      "precipitationHint": "有明显强降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "不住啊 我他妈是一口都没有啊 可能是变天吧 因为今天下雨 昨天晚上刮风了就不行了 现在是快十点钟了 等会"
+        },
+        {
+          "source": "subtitle",
+          "quote": "是吧 阴雨绵绵哦 哎呦山上好多老前辈啊 一片一片的 下雨一个钓鱼人都没有 这几天空军了好多呀 也不缺柴火"
+        },
+        {
+          "source": "subtitle",
+          "quote": "我做好了 昨天晚上钓了一个通宵啊 我总结出来了 这边大雨确实没开口 因为温差太大了 晚上好冷 但是白天又"
+        },
+        {
+          "source": "subtitle",
+          "quote": "一下这个香肠发霉了呀 等会把煮一下 应该还能吃是吧 阴雨绵绵哦 哎呦山上好多老前辈啊 一片一片的 下雨一"
+        },
+        {
+          "source": "subtitle",
+          "quote": "三个小时 那是一个口都没有啊 嗯可能今天晚上变天了 刮风啊 晚上真不行啊 打算收了吧 也不想守了 旁边钓"
+        },
+        {
+          "source": "subtitle",
+          "quote": "是一口都没有啊 可能是变天吧 因为今天下雨 昨天晚上刮风了就不行了 现在是快十点钟了 等会再过一个小时吧"
+        },
+        {
+          "source": "subtitle",
+          "quote": "总结出来了 这边大雨确实没开口 因为温差太大了 晚上好冷 但是白天又好热 白天要穿短袖 温差大的温差太大"
+        },
+        {
+          "source": "subtitle",
+          "quote": "太久了 一觉睡到了中午快12点11:30了吧 今天是大太阳的一天 蓝天没有白云 等会去把这个太阳能板给它"
+        },
+        {
+          "source": "subtitle",
+          "quote": "到了中午快12点11:30了吧 今天是大太阳的一天 蓝天没有白云 等会去把这个太阳能板给它冲上来 这样天"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "恩施土家族苗族自治州",
+      "toLabel": "宜昌",
+      "distanceKm": 178.5,
+      "polyline": [
+        [
+          109.4882,
+          30.2722
+        ],
+        [
+          111.2865,
+          30.6919
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "晚上",
+      "endTimeText": "晚上",
+      "durationHintText": "视频覆盖从 晚上 到 晚上",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "中午"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "12点"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "晚上"
+        }
+      ],
+      "inferredDayPartTags": [
+        "晚上",
+        "中午",
+        "早上",
+        "下午"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：中午"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：12点"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐是野葱闷饭",
+      "foods": [
+        "辣椒",
+        "米饭",
+        "肥肉"
+      ],
+      "cookingMethod": "炒",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：辣椒"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：米饭"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：肥肉"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 饵料、天气水情",
+      "tags": [
+        "饵料",
+        "天气水情"
+      ],
+      "techniques": [
+        "饵料"
+      ],
+      "conditions": [
+        "天气水情"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "钓鱼的嗯 白天估计我打的那个窝子有人在钓 不过我白天没口慌都不慌 顺便把这个衣服啊给晒起来 这大太阳 啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "真不行啊 打算收了吧 也不想守了 旁边钓翘嘴的好像也没口 这个天气真的看天吃饭了 昨天有口 今天一口都没"
+        },
+        {
+          "source": "subtitle",
+          "quote": "不会又被又不见了吧 还在啊兄弟们嗯 还是冲在昨天这个位置吧 这个位置还可以 这里这个位置日照时间比较长啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "见了吧 还在啊兄弟们嗯 还是冲在昨天这个位置吧 这个位置还可以 这里这个位置日照时间比较长啊 嗯冲上了啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "了 连鲫鱼都钓了 钓的少哈 然后今天的话我打算上钩挂饵料 下钩挂个蚯蚓来钓 主攻这个经济 这怎么得了啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "了 钓的少哈 然后今天的话我打算上钩挂饵料 下钩挂个蚯蚓来钓 主攻这个经济 这怎么得了啊 数了两三个小时"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "no",
+      "isSkunked": "yes",
+      "species": [
+        "鲫鱼",
+        "翘嘴"
+      ],
+      "weightText": null,
+      "countText": null,
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "钓鱼的嗯 白天估计我打的那个窝子有人在钓 不过我白天没口慌都不慌 顺便把这个衣服啊给晒起来 这大太阳 啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "个大哥钓的怎么样 嘿嘿先来打探一下 大哥坐了一天直接空军了 然后他说他到钓到天黑吧 然后天黑我来接他的窝"
+        },
+        {
+          "source": "subtitle",
+          "quote": "穿短袖 温差大的温差太大 鱼越大 它越不适应 所以说鲫鱼的话适应能力比较强 主钓鲫鱼啊 7米2的杆2+1"
+        },
+        {
+          "source": "subtitle",
+          "quote": "越大 它越不适应 所以说鲫鱼的话适应能力比较强 主钓鲫鱼啊 7米2的杆2+14号秀线组用的比较小 昨天就"
+        }
+      ]
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "我是你们老黄哼 我又回来了哦 哎呦 昨天晚上钓鱼钓太久了 一觉睡到了中午快12点11:30了吧 今天是大太阳的一天 蓝天没有白云 等会去把这个太阳能板给它冲上来 这样天天就有电用了 不缺电用 先把冲上吧 然后看一下昨天晚上的鱼还在不在哦 放在那个小沟里面了 估计还在 哎呦这天气好好啊 早上隐隐约约听到有人在这边挖地啊 这里种了果树 估计要种一些土豆啊啥的吧 ",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV1759KB1Egb/BV1759KB1Egb.ai-zh.srt",
+      "/Users/songdc/laohuang/raw/videos/BV1759KB1Egb/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV1759KB1Egb/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV1fJDGBREum",
+    "title": "游钓湖北，在荒地露营，奢侈一把半斤牛肉炒着吃",
+    "publishedAt": "2026-04-05T12:00:00.000Z",
+    "durationSec": 1677,
+    "coverUrl": "http://i0.hdslb.com/bfs/archive/3bc04cdb410c3c6469ac5453df06d22a09935527.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV1fJDGBREum",
+    "sequenceIndex": 17,
+    "transcriptSource": "asr",
+    "location": {
+      "label": "荆州",
+      "province": "湖北省",
+      "city": "荆州",
+      "district": null,
+      "poi": null,
+      "lat": 30.3352,
+      "lng": 112.2397,
+      "confidence": "low",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：湖北"
+        },
+        {
+          "source": "sequence-inference",
+          "quote": "标题仅说明到达省域，结合下一条已知地点 荆州 推断当前停留点。"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "未在视频中明确提及",
+      "conditionTags": [],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": null,
+      "precipitationHint": null,
+      "confidence": "unknown",
+      "evidence": []
+    },
+    "route": {
+      "fromLabel": "宜昌",
+      "toLabel": "荆州",
+      "distanceKm": 99.6,
+      "polyline": [
+        [
+          111.2865,
+          30.6919
+        ],
+        [
+          112.2397,
+          30.3352
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "早上",
+      "endTimeText": "晚上",
+      "durationHintText": "视频覆盖从 早上 到 晚上",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "下午"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "6点"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "下午"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "6点"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "下午"
+        }
+      ],
+      "inferredDayPartTags": [
+        "早上",
+        "下午",
+        "晚上"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：6点"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：6点"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐是半斤牛肉炒着吃",
+      "foods": [
+        "辣椒"
+      ],
+      "cookingMethod": "炒",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：辣椒"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 钓位、时段",
+      "tags": [
+        "钓位",
+        "时段"
+      ],
+      "techniques": [
+        "钓位",
+        "时段"
+      ],
+      "conditions": [],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "离开这里 哎呀 这边来这边来 这两天就是看他们在这个位置 掉了个船丁子 和那个拜条调得挺不错的 由于今天"
+        },
+        {
+          "source": "subtitle",
+          "quote": "应该在两米多调个飘 准备调个 两目吧 掉个三目 这个位置是个老调位啊 我看到天安天有人在这里 掉了个船丁"
+        },
+        {
+          "source": "subtitle",
+          "quote": "法 钢鱼层 扶飘层下去够后来就提杆 让它散在里面精准打窝 旁边这么大的旁边 没动了 来了大船丁 这船丁子"
+        },
+        {
+          "source": "subtitle",
+          "quote": "他可能不知道 然后看到了要叫他收 一个掉鱼都没有 就早上有几个人 掉了一下就不能掉了 收了收了 然后去挖"
+        },
+        {
+          "source": "subtitle",
+          "quote": "啊 不用挖那么多 挖多了也吃不完 看 都野充好香啊 下午快6点点 吃不完 下午快6点点 下午快6点 下午"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "unknown",
+      "isSkunked": "unknown",
+      "species": [],
+      "weightText": null,
+      "countText": null,
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "点紫啊紫对的 然后刚才我起来看了一下 今天好像不怎么上鱼了 你下不了什么鱼了 天缺宝宝的 然后看了一下"
+        }
+      ]
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "也冲净净下鸡 昨天真真下了一天的鱼啊 也没去掉鱼啊 躺了一天 躺了一天玩的手机吧 电也天也用 有一个充电宝电用完了啊 然后 等会把充电宝拿到那个小卖物件充电吧 给他一点实力 所以买点水呀 买点紫啊紫对的 然后刚才我起来看了一下 今天好像不怎么上鱼了 你下不了什么鱼了 天缺宝宝的 然后看了一下 那个鸡鱼挂了呀 那条鸡鱼养到两三天了 养酒了还挂了 也没打养 养个",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV1fJDGBREum/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV1fJDGBREum/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV1eFDrBwE1u",
+    "title": "扎营小河边铁路桥下，又是一口没有，这怎么得了呀",
+    "publishedAt": "2026-04-08T12:00:00.000Z",
+    "durationSec": 1272,
+    "coverUrl": "http://i1.hdslb.com/bfs/archive/4e688dce307af1df3e07f6497502c6357eb14caf.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV1eFDrBwE1u",
+    "sequenceIndex": 18,
+    "transcriptSource": "official_subtitle",
+    "location": {
+      "label": "荆州",
+      "province": "湖北省",
+      "city": "荆州",
+      "district": null,
+      "poi": null,
+      "lat": 30.3352,
+      "lng": 112.2397,
+      "confidence": "low",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：湖北"
+        },
+        {
+          "source": "sequence-inference",
+          "quote": "前后相邻视频都落在 荆州 一带，按连续旅程推断当前位置沿用同城节点。"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天有明显雷雨或大雨，天色偏阴，体感偏冷或出现降温，视频里也提到雨势后续减弱或暂停",
+      "conditionTags": [
+        "下雨",
+        "强降雨",
+        "弱降雨",
+        "降温",
+        "阴天",
+        "雨停"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": null,
+      "precipitationHint": "有明显强降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "应该是个阴天或者阴天太阳天吧 反正就这个天气 反正不下雨 相当的nice 早上这个露水啊 你看还是挺大的"
+        },
+        {
+          "source": "subtitle",
+          "quote": "就和国道汇合了 哎呀雨下大了呀 你看一下 在这边躲一下雨吧 越下越大了 这是一个镇上 这个镇冷冷清清的"
+        },
+        {
+          "source": "subtitle",
+          "quote": "短 呼啸而过 没看一下 我这边下雨也不怕啊 一般不是暴雨都淋不到啊 你看草都是干的 哎呀休息一下呀 直接"
+        },
+        {
+          "source": "subtitle",
+          "quote": "是干的 哎呀休息一下呀 直接晚上赶网口啊 感觉这几天阴雨绵绵的天气不好 人都有些疲惫了 状态也不好啊 ♪"
+        },
+        {
+          "source": "subtitle",
+          "quote": "啊 把外套脱了 太热了 穿短袖吧 这个下雨天也不怎么降温了 感觉还是热 其实就我一个人穿短袖啊 因为我比"
+        },
+        {
+          "source": "subtitle",
+          "quote": "相当的舒适啊 等会儿收拾东西出发了呗 今天应该是个阴天或者阴天太阳天吧 反正就这个天气 反正不下雨 相"
+        },
+        {
+          "source": "subtitle",
+          "quote": "舒适啊 等会儿收拾东西出发了呗 今天应该是个阴天或者阴天太阳天吧 反正就这个天气 反正不下雨 相当的ni"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "荆州",
+      "toLabel": "荆州",
+      "distanceKm": 0,
+      "polyline": [
+        [
+          112.2397,
+          30.3352
+        ],
+        [
+          112.2397,
+          30.3352
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "早上",
+      "endTimeText": "晚上",
+      "durationHintText": "视频覆盖从 早上 到 晚上",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "下午"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "晚上"
+        }
+      ],
+      "inferredDayPartTags": [
+        "早上",
+        "晚上",
+        "下午",
+        "中午",
+        "天亮了"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐围绕 猪肉、红椒 展开",
+      "foods": [
+        "猪肉",
+        "红椒"
+      ],
+      "cookingMethod": "烧",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：猪肉"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：红椒"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 鱼情判断、钓位、饵料、时段、天气水情",
+      "tags": [
+        "鱼情判断",
+        "钓位",
+        "饵料",
+        "时段",
+        "天气水情"
+      ],
+      "techniques": [
+        "钓位",
+        "饵料",
+        "时段"
+      ],
+      "conditions": [
+        "鱼情判断",
+        "天气水情"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "这是坝子 看起来水也不深了 等会去问一下钓鱼人 这边鱼情爆不爆炸 哎 先不问鱼情暴不暴躁了 我先去看找住"
+        },
+        {
+          "source": "subtitle",
+          "quote": "了 等会去问一下钓鱼人 这边鱼情爆不爆炸 哎 先不问鱼情暴不暴躁了 我先去看找住的地方啊 下午好像要下雨"
+        },
+        {
+          "source": "subtitle",
+          "quote": "走一圈 看是个什么情况 看有没有坝子之类的 你看一下桥下面好多人在露营搞烧烤啊之类的 那边那个桥还没有"
+        },
+        {
+          "source": "subtitle",
+          "quote": "塘一样那种浅滩 中间应该是主河道还在流水 刚才把这些位置试了一遍了 这边浅 就这个树的那里 5米4的杆子"
+        },
+        {
+          "source": "subtitle",
+          "quote": "只做了啊 漂漂已经调好了 调个两目 钓个两目吧 精准打窝 抽点9米下去 先钓钓鲫鱼 看有没有 刚才把帐篷"
+        },
+        {
+          "source": "subtitle",
+          "quote": "我是麦老黄 我又回来了 我 起床了啊 现在早上07:30了 昨天晚上住在这个荒地啊 挺安静的"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "no",
+      "isSkunked": "yes",
+      "species": [
+        "鲤鱼",
+        "鲫鱼"
+      ],
+      "weightText": null,
+      "countText": null,
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "一点 不然杆子不见了 刚才听到有人过来了呀 如果没有中鱼 我就把鱼竿收了 补在这里了 看一下中鱼没有 搞"
+        },
+        {
+          "source": "subtitle",
+          "quote": "呀 如果没有中鱼 我就把鱼竿收了 补在这里了 看一下中鱼没有 搞了一个翻底啊 哎呀杆子动都没动啊 兄弟们"
+        },
+        {
+          "source": "subtitle",
+          "quote": "最多也就一米深 嗯嗯还不止微生物 你看一斤多的拐子 鲤鱼拐子为什么挂了呀 这条河叫玛瑙河 它不是野塘啊"
+        },
+        {
+          "source": "subtitle",
+          "quote": "调个两目 钓个两目吧 精准打窝 抽点9米下去 先钓钓鲫鱼 看有没有 刚才把帐篷搭好了 你看这边有条土路"
+        }
+      ]
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "我是麦老黄 我又回来了 我 起床了啊 现在早上07:30了 昨天晚上住在这个荒地啊 挺安静的 相当舒适 你看那边七八百米吧 有个工地搞得通啊 通的啊 晚上的话还可以比较安静 听着花儿鸟儿树儿草儿的尖叫声 还有一阵呱呱的声音 呱呱呱慢慢的入眠 相当的舒适啊 等会儿收拾东西出发了呗 今天应该是个阴天或者阴天太阳天吧 反正就这个天气 反正不下雨 相当的nice 早",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV1eFDrBwE1u/BV1eFDrBwE1u.ai-zh.srt",
+      "/Users/songdc/laohuang/raw/videos/BV1eFDrBwE1u/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV1eFDrBwE1u/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV1MZQKBbEJa",
+    "title": "下雨天在路边躲雨，半只鸭子又吃爽了",
+    "publishedAt": "2026-04-11T12:00:00.000Z",
+    "durationSec": 1547,
+    "coverUrl": "http://i1.hdslb.com/bfs/archive/64bba794004ac6d23472069ada4d11bbc502907b.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV1MZQKBbEJa",
+    "sequenceIndex": 19,
+    "transcriptSource": "official_subtitle",
+    "location": {
+      "label": "荆州",
+      "province": "湖北省",
+      "city": "荆州",
+      "district": null,
+      "poi": null,
+      "lat": 30.3352,
+      "lng": 112.2397,
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：湖北"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：宜昌"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：荆州"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天有明显雷雨或大雨，天色偏阴，视频里也提到雨势后续减弱或暂停",
+      "conditionTags": [
+        "下雨",
+        "强降雨",
+        "弱降雨",
+        "阴天",
+        "雨停"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": null,
+      "precipitationHint": "有明显强降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "的 啪啊啪的响 这天气真是变幻无常啊 又在打雷 又在下雨 这个雨下大了 这里中间这里在滴水 刚好滴在帐篷"
+        },
+        {
+          "source": "subtitle",
+          "quote": "那个镇上大概6km 中午吧 中午过去住个宾馆充电躲一下雨吧 然后取一下快递 刚才把这个东西已经收拾好了呀"
+        },
+        {
+          "source": "subtitle",
+          "quote": "点大料一起焖啊 一起煮树叶啊 八角啊这些东西 外面在打雷 闪电又下起了雨 现在晚上了啊 在这里等快递休息"
+        },
+        {
+          "source": "subtitle",
+          "quote": "一起焖啊 一起煮树叶啊 八角啊这些东西 外面在打雷 闪电又下起了雨 现在晚上了啊 在这里等快递休息 明天"
+        },
+        {
+          "source": "subtitle",
+          "quote": "还 早上午就休息吧 这个鱼比较大 然后这这几天来都是阴雨绵绵的 也没充电 我的电脑快用完了 基本上今天就"
+        },
+        {
+          "source": "subtitle",
+          "quote": "可以避个八九成的雨吧 只要不下暴雨 基本上没问题 下小雨中雨都可以防得住啊 难搞程度直接拉满了 水漏了我"
+        },
+        {
+          "source": "subtitle",
+          "quote": "三峡东大门 枝江市应该是属于宜昌市的一个县级市 不过雾气蒙蒙的 根本就看不到那边的房子啊 高楼大厦若隐若"
+        },
+        {
+          "source": "subtitle",
+          "quote": "没有 这边全是这种 今天一整天下来就是这种灰蒙灰蒙的阴天 感觉马上就要下雨了 这谁顶得住啊 这种天气非常"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "荆州",
+      "toLabel": "荆州",
+      "distanceKm": 0,
+      "polyline": [
+        [
+          112.2397,
+          30.3352
+        ],
+        [
+          112.2397,
+          30.3352
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "晚上",
+      "endTimeText": "晚上",
+      "durationHintText": "视频覆盖从 晚上 到 晚上",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "中午"
+        }
+      ],
+      "inferredDayPartTags": [
+        "晚上",
+        "早上",
+        "中午",
+        "下午"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐是半只鸭子",
+      "foods": [
+        "米饭",
+        "辣椒",
+        "豆瓣酱",
+        "红椒"
+      ],
+      "cookingMethod": "炒",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：米饭"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：辣椒"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：豆瓣酱"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：红椒"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": true,
+      "items": [
+        "蔬菜"
+      ],
+      "totalCostText": "合计约 11.00 元",
+      "totalCostCny": 11,
+      "costBreakdown": [
+        {
+          "item": "蔬菜",
+          "costText": "11元",
+          "costCny": 11
+        }
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到花费：蔬菜 11元"
+        }
+      ]
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 钓位、饵料、时段、天气水情",
+      "tags": [
+        "钓位",
+        "饵料",
+        "时段",
+        "天气水情"
+      ],
+      "techniques": [
+        "钓位",
+        "饵料",
+        "时段"
+      ],
+      "conditions": [
+        "天气水情"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "在这里等快递休息 明天快递就到了呀 还好有这个铁路桥下面了 不然这个打雷 估计今天晚上要下暴雨啊 我这"
+        },
+        {
+          "source": "subtitle",
+          "quote": "这个雨下大了 这里中间这里在滴水 刚好滴在帐篷的这个位置 还行吧 总比全部淋雨好啊 旁边有个排水的管道吧"
+        },
+        {
+          "source": "subtitle",
+          "quote": "个蛋蛋 放入葱姜蒜香料搞里头 半勺辣椒面小米 然后放豆瓣酱 嘎裂头 够了够了 低度料酒再次去香增腥 加里"
+        },
+        {
+          "source": "subtitle",
+          "quote": "啊 八角啊这些东西 外面在打雷 闪电又下起了雨 现在晚上了啊 在这里等快递休息 明天快递就到了呀 还好有"
+        },
+        {
+          "source": "subtitle",
+          "quote": "了呀 还好有这个铁路桥下面了 不然这个打雷 估计今天晚上要下暴雨啊 我这里应该是淋不到雨的 还行 他这个"
+        },
+        {
+          "source": "subtitle",
+          "quote": "的 啪啊啪的响 这天气真是变幻无常啊 又在打雷 又在下雨 这个雨下大了 这里中间这里在滴水 刚好滴在帐篷"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "unknown",
+      "isSkunked": "unknown",
+      "species": [],
+      "weightText": null,
+      "countText": null,
+      "evidence": []
+    },
+    "visualAnalysis": null,
+    "transcriptExcerpt": "放一点大料一起焖啊 一起煮树叶啊 八角啊这些东西 外面在打雷 闪电又下起了雨 现在晚上了啊 在这里等快递休息 明天快递就到了呀 还好有这个铁路桥下面了 不然这个打雷 估计今天晚上要下暴雨啊 我这里应该是淋不到雨的 还行 他这个桥的两边还是比较宽的 这个铁路下面还可以吧 淋雨的话就太难受了 明天的话再去取快递吧 买的那些包到了 哎呀哎呀舒服啊哎呀 这个雷声很大",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV1MZQKBbEJa/BV1MZQKBbEJa.ai-zh.srt",
+      "/Users/songdc/laohuang/raw/videos/BV1MZQKBbEJa/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV1MZQKBbEJa/meta.json"
+    ]
+  },
+  {
+    "bvid": "BV18JDmBkE1D",
+    "title": "刮风下雨躲进废弃房，一锅牛皮菜烧胡豆，又吃美了",
+    "publishedAt": "2026-04-12T12:00:00.000Z",
+    "durationSec": 1042,
+    "coverUrl": "http://i1.hdslb.com/bfs/archive/d230e0b1aa0681de52a26459ec2a8531c085a40b.jpg",
+    "bilibiliUrl": "https://www.bilibili.com/video/BV18JDmBkE1D",
+    "sequenceIndex": 20,
+    "transcriptSource": "official_subtitle",
+    "location": {
+      "label": "荆州 · 汉江运河",
+      "province": "湖北省",
+      "city": "荆州",
+      "district": null,
+      "poi": "汉江运河",
+      "lat": 30.3352,
+      "lng": 112.2397,
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：荆州"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：汉江运河"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：宜昌"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到地点词：集贸市场"
+        }
+      ]
+    },
+    "weather": {
+      "summary": "当天有降雨，伴随风力影响，体感偏冷或出现降温",
+      "conditionTags": [
+        "下雨",
+        "刮风",
+        "降温"
+      ],
+      "temperatureMin": null,
+      "temperatureMax": null,
+      "windLevel": "风大",
+      "precipitationHint": "有降雨",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "昨天下午也是顺利到达荆州市了 唉不过来这里啊 就开始下雨了 这怎么得了啊 唉早点收拾 趁现在没下雨 早点"
+        },
+        {
+          "source": "subtitle",
+          "quote": "啊 就开始下雨了 这怎么得了啊 唉早点收拾 趁现在没下雨 早点把东西收拾一下 怕等会又下大雨了 不好搞"
+        },
+        {
+          "source": "subtitle",
+          "quote": "点收拾 趁现在没下雨 早点把东西收拾一下 怕等会又下大雨了 不好搞 哎呦 看一下昨天的露营环境吧 嘿自行"
+        },
+        {
+          "source": "subtitle",
+          "quote": "就没有停过几天 基本上下雨居多了 外面现在正在狂风暴雨啊 不过我在帐篷里面还是相当的稳了 没想到这个风"
+        },
+        {
+          "source": "subtitle",
+          "quote": "河 也是水上交通吧 属于运东西的 天空中下起了蒙蒙的小雨 这个雨一时半会儿应该下不到 因为天空没有完全暗"
+        },
+        {
+          "source": "subtitle",
+          "quote": "呱的叫 那边是平路 骑车的体验感是比较好的 但是这边风大呀 因为没有山遮风 这边每天都刮风 有时候顺风吧"
+        },
+        {
+          "source": "subtitle",
+          "quote": "比较好的 但是这边风大呀 因为没有山遮风 这边每天都刮风 有时候顺风吧 有时候逆风风 这里又有收费站了"
+        },
+        {
+          "source": "subtitle",
+          "quote": "子就不错了 这里有柴火 好多门 这边风特别大呀 天呐好冷啊 感觉又进入冬天了 这里有梯子可以上去去二楼垃"
+        },
+        {
+          "source": "subtitle",
+          "quote": "这边挨着镇子上的 应该可以搞到水 感觉一下雨啊 这降温感觉又到冬天了 好冷啊 到家了 朋友们 看一下外"
+        },
+        {
+          "source": "subtitle",
+          "quote": "就是市区了 看不清楚啊 这边空气质量我感觉不是太好 雾蒙雾蒙的 这就是荆州标志性建筑物 避雷针 那个雷打"
+        },
+        {
+          "source": "frame_visual",
+          "quote": "关键帧出现湿地、雨具或明显雨天环境"
+        }
+      ]
+    },
+    "route": {
+      "fromLabel": "荆州",
+      "toLabel": "荆州 · 汉江运河",
+      "distanceKm": 0,
+      "polyline": [
+        [
+          112.2397,
+          30.3352
+        ],
+        [
+          112.2397,
+          30.3352
+        ]
+      ],
+      "method": "inferred-sequential"
+    },
+    "timeSpan": {
+      "startTimeText": "早上",
+      "endTimeText": "下午",
+      "durationHintText": "视频覆盖从 早上 到 下午",
+      "keyMoments": [
+        {
+          "label": "时间点 1",
+          "timeText": "早上"
+        },
+        {
+          "label": "时间点 2",
+          "timeText": "天亮了"
+        },
+        {
+          "label": "时间点 3",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 4",
+          "timeText": "下午"
+        },
+        {
+          "label": "时间点 5",
+          "timeText": "晚上"
+        },
+        {
+          "label": "时间点 6",
+          "timeText": "晚上"
+        }
+      ],
+      "inferredDayPartTags": [
+        "早上",
+        "天亮了",
+        "晚上",
+        "下午"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：早上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：天亮了"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：下午"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到时间表达：晚上"
+        },
+        {
+          "source": "frame_visual",
+          "quote": "关键帧时间点：02:29",
+          "timestamp": "02:29"
+        },
+        {
+          "source": "frame_visual",
+          "quote": "关键帧时间点：04:58",
+          "timestamp": "04:58"
+        }
+      ]
+    },
+    "dinner": {
+      "summary": "晚餐是牛皮菜烧胡豆",
+      "foods": [
+        "牛皮菜",
+        "胡豆",
+        "黄豆",
+        "豆瓣酱",
+        "辣椒",
+        "红椒",
+        "肥肉",
+        "米饭"
+      ],
+      "cookingMethod": "炒",
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：牛皮菜"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：胡豆"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：黄豆"
+        },
+        {
+          "source": "subtitle",
+          "quote": "识别到晚餐相关食材：豆瓣酱"
+        }
+      ]
+    },
+    "shopping": {
+      "hasShopping": false,
+      "items": [],
+      "totalCostText": null,
+      "totalCostCny": null,
+      "costBreakdown": [],
+      "evidence": []
+    },
+    "fishingTheory": {
+      "summary": "视频中提到的钓鱼理论主要集中在 钓位、天气水情",
+      "tags": [
+        "钓位",
+        "天气水情"
+      ],
+      "techniques": [
+        "钓位"
+      ],
+      "conditions": [
+        "天气水情"
+      ],
+      "evidence": [
+        {
+          "source": "subtitle",
+          "quote": "火也够了 这么多天暗下来了 把帐篷搭一下吧 搭在这个位置吧 好的 刚才把帐篷搭起来了 柴火在这里 在这个"
+        },
+        {
+          "source": "subtitle",
+          "quote": "这个已经煮熟了啊 打出来备用嘶 炒菜了啊 烧油起锅 豆瓣酱辣椒面小料给他炒香 倒入牛皮菜 前面水 来搞入"
+        },
+        {
+          "source": "subtitle",
+          "quote": "豆呃 烧这个糊豆 开饭开饭 Uh oh 哇起床了啊 早上七点钟 天亮了 我去还行吧 昨天晚上住在这里还可"
+        },
+        {
+          "source": "subtitle",
+          "quote": "糊豆 开饭开饭 Uh oh 哇起床了啊 早上七点钟 天亮了 我去还行吧 昨天晚上住在这里还可以 也是昨天"
+        },
+        {
+          "source": "subtitle",
+          "quote": "昨天下午也是顺利到达荆州市了 唉不过来这里啊 就开始下雨了 这怎么得了啊 唉早点收拾 趁现在没下雨 早点"
+        },
+        {
+          "source": "subtitle",
+          "quote": "啊 就开始下雨了 这怎么得了啊 唉早点收拾 趁现在没下雨 早点把东西收拾一下 怕等会又下大雨了 不好搞"
+        }
+      ]
+    },
+    "fishing": {
+      "caught": "unknown",
+      "isSkunked": "unknown",
+      "species": [],
+      "weightText": null,
+      "countText": null,
+      "evidence": []
+    },
+    "visualAnalysis": {
+      "summary": "画面里能看到露营或临时落脚场景；关键帧出现做饭或食材处理环节；中间段出现市场或买菜线索；画面和文本都指向雨天或湿地环境；OCR 识别到的代表性文字包括「esassotol bill ae Pe or ga i」",
+      "frames": [
+        {
+          "imagePath": "/Users/songdc/laohuang/raw/videos/BV18JDmBkE1D/frames/frame-01.jpg",
+          "imageUrl": "/frames/BV18JDmBkE1D/frame-01.jpg",
+          "timestampSec": 148.8,
+          "timestampText": "02:29",
+          "ocrText": "esassotol bill ae Pe or ga ies Bs 's <) = = — “ = 4 7 ee, a - xi, eo en ee 7 | ge ts y so\" ¥ ~ —- 4 —_—_ 4 Geox",
+          "sceneTags": [],
+          "transcriptWindow": "那边那些房子好像没住人 是小区吧 应该是建的安置房或者搬迁的那种统一风格的 我一来这两只小狗又烂去了哟"
+        },
+        {
+          "imagePath": "/Users/songdc/laohuang/raw/videos/BV18JDmBkE1D/frames/frame-02.jpg",
+          "imageUrl": "/frames/BV18JDmBkE1D/frame-02.jpg",
+          "timestampSec": 297.6,
+          "timestampText": "04:58",
+          "ocrText": "",
+          "sceneTags": [],
+          "transcriptWindow": "这就是荆州标志性建筑物 避雷针 那个雷打在那个尖尖上面 然后传下来转化为电能"
+        },
+        {
+          "imagePath": "/Users/songdc/laohuang/raw/videos/BV18JDmBkE1D/frames/frame-03.jpg",
+          "imageUrl": "/frames/BV18JDmBkE1D/frame-03.jpg",
+          "timestampSec": 446.4,
+          "timestampText": "07:26",
+          "ocrText": "te e) |’? x es aS",
+          "sceneTags": [],
+          "transcriptWindow": "这房子应该可以住吧 你看 哇什么房子啊 感觉都要垮了"
+        },
+        {
+          "imagePath": "/Users/songdc/laohuang/raw/videos/BV18JDmBkE1D/frames/frame-04.jpg",
+          "imageUrl": "/frames/BV18JDmBkE1D/frame-04.jpg",
+          "timestampSec": 595.2,
+          "timestampText": "09:55",
+          "ocrText": "znanee bibl q : . f N s yf? \\ \\\\. yj on » \\ ~ J 9 eae",
+          "sceneTags": [
+            "搭营"
+          ],
+          "transcriptWindow": "基本上找到房子住了 这个柴火的话就十拿九稳了 基本上多多少少有点柴火 柴火也够了"
+        },
+        {
+          "imagePath": "/Users/songdc/laohuang/raw/videos/BV18JDmBkE1D/frames/frame-05.jpg",
+          "imageUrl": "/frames/BV18JDmBkE1D/frame-05.jpg",
+          "timestampSec": 744.1,
+          "timestampText": "12:24",
+          "ocrText": "enanem bibl _ ——_",
+          "sceneTags": [
+            "做饭",
+            "后段"
+          ],
+          "transcriptWindow": "炒菜了啊 烧油起锅 豆瓣酱辣椒面小料给他炒香 倒入牛皮菜"
+        },
+        {
+          "imagePath": "/Users/songdc/laohuang/raw/videos/BV18JDmBkE1D/frames/frame-06.jpg",
+          "imageUrl": "/frames/BV18JDmBkE1D/frame-06.jpg",
+          "timestampSec": 892.9,
+          "timestampText": "14:53",
+          "ocrText": "zmate bibl",
+          "sceneTags": [
+            "后段"
+          ],
+          "transcriptWindow": "可以这虎斗好弱啊 下饭 又是饿了一天了呀 相信很多年轻人没吃过这个菜"
+        }
+      ],
+      "signals": {
+        "hasCampScene": true,
+        "hasCookingScene": true,
+        "hasFishCloseup": false,
+        "hasRoadSignText": false,
+        "hasRainGearOrWetGround": true,
+        "hasShoppingScene": true,
+        "ocrMentions": [
+          "esassotol",
+          "bill",
+          "ae",
+          "Pe",
+          "or",
+          "ga",
+          "ies",
+          "Bs",
+          "ee",
+          "xi",
+          "eo",
+          "en",
+          "ge",
+          "ts",
+          "so",
+          "Geox",
+          "te",
+          "es",
+          "aS",
+          "znanee",
+          "bibl",
+          "yf",
+          "yj",
+          "on"
+        ]
+      },
+      "confidence": "medium"
+    },
+    "transcriptExcerpt": "搞入红胶 擦个颜色 熟了啊 牛皮菜烧黄豆呃 烧这个糊豆 开饭开饭 Uh oh 哇起床了啊 早上七点钟 天亮了 我去还行吧 昨天晚上住在这里还可以 也是昨天下午也是顺利到达荆州市了 唉不过来这里啊 就开始下雨了 这怎么得了啊 唉早点收拾 趁现在没下雨 早点把东西收拾一下 怕等会又下大雨了 不好搞 哎呦 看一下昨天的露营环境吧 嘿自行车还在 现在还在锁在这个上面",
+    "rawEvidenceRefs": [
+      "/Users/songdc/laohuang/raw/videos/BV18JDmBkE1D/BV18JDmBkE1D.ai-zh.srt",
+      "/Users/songdc/laohuang/raw/videos/BV18JDmBkE1D/transcript.txt",
+      "/Users/songdc/laohuang/raw/videos/BV18JDmBkE1D/meta.json",
+      "/Users/songdc/laohuang/raw/videos/BV18JDmBkE1D/visual-evidence.json"
+    ]
+  }
+]

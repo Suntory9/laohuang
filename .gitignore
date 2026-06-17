@@ -6,7 +6,7 @@
 ._*
 
 # Custom folder icons
-Icon
+Icon
 
 # Volume root files
 .DocumentRevisions-V100
@@ -61,3 +61,17 @@ out/
 .yarn/unplugged
 .yarn/install-state.gz
 .pnp.*.worktrees/
+
+### Project artifacts
+# Data pipeline intermediates
+raw/
+downloads/
+generated/
+output/
+tmp/
+
+# Visual analysis frame captures
+public/frames/
+
+# Local superpowers config
+.superpowers/
